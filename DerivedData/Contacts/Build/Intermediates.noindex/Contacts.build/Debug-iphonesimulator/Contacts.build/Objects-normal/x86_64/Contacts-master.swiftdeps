@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1635085113, 685101985]
+build_end_time: [1635085123, 688979148]
+inputs:
+  "/Users/songweichuah/Desktop/Contacts/Contacts/AppDelegate.swift": [1635084991, 929545879]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/SceneDelegate.swift": [1635084991, 936682462]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/ViewController.swift": [1635084991, 939997673]
