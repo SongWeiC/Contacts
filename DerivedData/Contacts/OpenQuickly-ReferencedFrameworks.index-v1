@@ -2,8 +2,30 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<string>UIKit</string>
-	<string>CoreData</string>
 	<string>Foundation</string>
+	<string>Kingfisher</string>
+	<string>AppKit</string>
+	<string>SnapKit</string>
+	<string>CoreData</string>
+	<string>Dispatch</string>
+	<string>CoreGraphics</string>
+	<string>Accelerate</string>
+	<string>libkern</string>
+	<string>FoundationNetworking</string>
+	<string>SwiftUI</string>
+	<string>CoreServices</string>
+	<string>UIKit</string>
+	<string>Combine</string>
+	<string>CoreImage</string>
+	<string>WatchKit</string>
+	<string>dispatch</string>
+	<string>MobileCoreServices</string>
+	<string>ImageIO</string>
+	<string>CoreFoundation</string>
+	<string>AVKit</string>
+	<string>the</string>
+	<string>TVUIKit</string>
+	<string>PromiseKit</string>
+	<string>CommonCrypto</string>
 </array>
 </plist>

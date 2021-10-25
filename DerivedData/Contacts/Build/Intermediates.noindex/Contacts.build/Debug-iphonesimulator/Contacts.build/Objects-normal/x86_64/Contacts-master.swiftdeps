@@ -1,13 +1,22 @@
 version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
-options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
-build_start_time: [1635137449, 915017127]
-build_end_time: [1635137450, 816416978]
+options: "0ac94f05c326db5f52409c199e01ee2a70d3aa2d0f61321161a7ec3b5b393d37"
+build_start_time: [1635146623, 100031852]
+build_end_time: [1635146625, 92705965]
 inputs:
   "/Users/songweichuah/Desktop/Contacts/Contacts/AppDelegate.swift": [1635126661, 475237369]
-  "/Users/songweichuah/Desktop/Contacts/Contacts/AppRegistry/AppRegistry+HomeUICoordinator.swift": [1635137402, 548080444]
-  "/Users/songweichuah/Desktop/Contacts/Contacts/AppRegistry/AppRegistry.swift": [1635126661, 441455364]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/AppRegistry/AppRegistry+HomeUICoordinator.swift": [1635142215, 796546936]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/AppRegistry/AppRegistry.swift": [1635142216, 608955144]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/ContactViewTile/ContactViewTile.swift": [1635146518, 147680997]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/DataSource/ContactDataSource.swift": [1635142082, 942039251]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/Model/ContactListAPIModel.swift": [1635142082, 829760551]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/Networking/JSONResponseDecoder.swift": [1635142082, 850518226]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/Networking/NetworkServiceRequest.swift": [1635142082, 886404991]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/Networking/WebServiceHelper.swift": [1635142082, 871235370]
   "/Users/songweichuah/Desktop/Contacts/Contacts/SceneDelegate.swift": [1635084991, 936682462]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/Service/DataProviderService.swift": [1635142082, 906964302]
   "/Users/songweichuah/Desktop/Contacts/Contacts/UICoordinator/HomeUICoordinator.swift": [1635136675, 602348804]
   "/Users/songweichuah/Desktop/Contacts/Contacts/UICoordinator/UICoordinatorType.swift": [1635136749, 342128992]
   "/Users/songweichuah/Desktop/Contacts/Contacts/UIKit/CANavigationViewController.swift": [1635136675, 568192481]
-  "/Users/songweichuah/Desktop/Contacts/Contacts/ViewController/HomeViewController.swift": [1635137448, 9385108]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/ViewController/HomeTableViewCell.swift": [1635143159, 123012065]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/ViewController/HomeViewController.swift": [1635146147, 477780103]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/ViewModel/ContactViewModel.swift": [1635142082, 923728942]

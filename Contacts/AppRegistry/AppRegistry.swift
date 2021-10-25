@@ -12,7 +12,11 @@ class AppRegistry {
     private(set) var window: UIWindow!
     private(set) var rootUICoordinator: HomeUICoordinator?
     
-    init(){}
+    var contactListDataSource: ContactDataSourceType!
+    
+    init(){
+        self.contactListDataSource = ContactDataSource()
+    }
     
     func createAppRootViewController(window: UIWindow) {
         self.window = window

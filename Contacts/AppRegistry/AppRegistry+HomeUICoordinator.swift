@@ -13,6 +13,6 @@ extension AppRegistry: HomeUICoordinatorDependencyProviderType {
     }
     
     func getHomeVC() -> HomeViewController {
-        return HomeViewController()
+        return HomeViewController(dataSource: contactListDataSource)
     }
 }

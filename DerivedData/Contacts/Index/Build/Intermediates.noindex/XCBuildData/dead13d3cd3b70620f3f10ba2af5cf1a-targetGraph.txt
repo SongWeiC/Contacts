@@ -1,3 +1,0 @@
-Target dependency graph (2 targets)
-Contacts in Contacts, no dependencies
-Contacts in Contacts, no dependencies

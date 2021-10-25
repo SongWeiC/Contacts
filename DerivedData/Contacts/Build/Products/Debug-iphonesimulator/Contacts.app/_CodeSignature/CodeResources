@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		rf58wzU1BZ1zr25hTzJOB0z55OE=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		0ChpSGDCG9N4elOOMeCJUwfGlgw=
+		tG+0NJBTDJU1pGyTkthn/3SEV7s=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -18,7 +22,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		0ChpSGDCG9N4elOOMeCJUwfGlgw=
+		tG+0NJBTDJU1pGyTkthn/3SEV7s=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -40,9 +44,45 @@
 		<data>
 		SF7nsdEmgwDh4l3/fiql8H7JgcA=
 		</data>
+		<key>Frameworks/Kingfisher.framework/Info.plist</key>
+		<data>
+		rg/FjEbcSkfXD2R1Oo2hyOHPNEE=
+		</data>
+		<key>Frameworks/Kingfisher.framework/Kingfisher</key>
+		<data>
+		XT7h2sIEd/UJZpptC8nTU7wZNRw=
+		</data>
+		<key>Frameworks/Kingfisher.framework/_CodeSignature/CodeResources</key>
+		<data>
+		8yqCmnxuLO6tKF6TC7emf3ufj9E=
+		</data>
+		<key>Frameworks/PromiseKit.framework/Info.plist</key>
+		<data>
+		eSndbS2zGyTs9GeISEE9toqQV0I=
+		</data>
+		<key>Frameworks/PromiseKit.framework/PromiseKit</key>
+		<data>
+		komvS4KwU4SHPkB4cAAfFeVlCis=
+		</data>
+		<key>Frameworks/PromiseKit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		TqMD7Fg75HXn8rO9rw8jvcxa+r4=
+		</data>
+		<key>Frameworks/SnapKit.framework/Info.plist</key>
+		<data>
+		rvKpUOGiLxw97H9ce3lRKcwGqrY=
+		</data>
+		<key>Frameworks/SnapKit.framework/SnapKit</key>
+		<data>
+		VwtVTqjZ5FYpuQ0ukxOr1/yMGvk=
+		</data>
+		<key>Frameworks/SnapKit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		Rx5gs7MSZ7uXx/qr62gXvYkELr0=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		l1YK3ycOR9ZiGb/rHQtaZs+b1RM=
+		Zp45jLXOzwK2Oq7LyWm6+nC7J2Q=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -51,11 +91,18 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iljs9wnpuBDAUMTb4zOV8pXlbv1ai9w5Gh8PFEkpPkg=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xY+K+ZNJZzpIZza4mS2iIJ2dXIHrDKMQTSEpFWownbE=
+			eGOOA9v7cm8vfK6MRci5Cka6ymlf1C3AyF6Gqr5XqPo=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -76,7 +123,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xY+K+ZNJZzpIZza4mS2iIJ2dXIHrDKMQTSEpFWownbE=
+			eGOOA9v7cm8vfK6MRci5Cka6ymlf1C3AyF6Gqr5XqPo=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -112,6 +159,69 @@
 			<key>hash2</key>
 			<data>
 			FUWIN3MUrQi4KyfvXHQ9puTmeCcq1+IQPSaX5myauQs=
+			</data>
+		</dict>
+		<key>Frameworks/Kingfisher.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mU2cH7efD+vBD/wjzOzg1/LVDLmLhwJg6VV0+U/Xfj0=
+			</data>
+		</dict>
+		<key>Frameworks/Kingfisher.framework/Kingfisher</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3U3gL7prr32Ne32mI9Jt1kSLKO04NF2aSz16812iiII=
+			</data>
+		</dict>
+		<key>Frameworks/Kingfisher.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eCSYeAfHFCcMze2NySpeJfekAfmt3r0/ElHm+Zi/coQ=
+			</data>
+		</dict>
+		<key>Frameworks/PromiseKit.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bFGSQ7R6Ocq7jwYKeFGL/rTdj2dobu/IOs7Gr0TJOW8=
+			</data>
+		</dict>
+		<key>Frameworks/PromiseKit.framework/PromiseKit</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QkrEvylhpzAdzkP1xGX4iFbUxYGFKxA6SnKDXe2TF0Q=
+			</data>
+		</dict>
+		<key>Frameworks/PromiseKit.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0hSTPqpm6Vcyy7sVoi+c/z3+0YMh3rh4+sKR6TY7j9A=
+			</data>
+		</dict>
+		<key>Frameworks/SnapKit.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mJXNFl7/rtYU1tCcaLzyd/f9MfVRrzfshyMrQ1yLpWU=
+			</data>
+		</dict>
+		<key>Frameworks/SnapKit.framework/SnapKit</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qNZZDfiS36wsghGMQ9PCAOhKMdopsBPz5Yy69ivSKlc=
+			</data>
+		</dict>
+		<key>Frameworks/SnapKit.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uFm6tPZzGYuM9R1T0QGBUn+JgWYr5mCflCPdypvAOSo=
 			</data>
 		</dict>
 	</dict>
