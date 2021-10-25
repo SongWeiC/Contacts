@@ -9,10 +9,14 @@ import Foundation
 import UIKit
 import SnapKit
 
+protocol HomeViewControllerDelegateType: AnyObject {
+    func showContactDetail()
+}
+
 class HomeViewController: UIViewController {
-    
     private let dataSource: ContactDataSourceType
     private var tableView = UITableView()
+    var delegate: HomeViewControllerDelegateType?
     
     required init(dataSource: ContactDataSourceType) {
         self.dataSource = dataSource
@@ -33,7 +37,6 @@ class HomeViewController: UIViewController {
     }
     
     func setUpRightBarItem() {
-//        let barButton = UIBarButtonItem(image: UIImage(named: "plus"), style: .plain, target: self, action: #selector(userDidSelectAddButton))
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Add", style: .plain, target: self, action: #selector(userDidSelectAddButton))
     }
     
@@ -91,7 +94,10 @@ class HomeViewController: UIViewController {
 }
 
 extension HomeViewController: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        dataSource.setSelectedContact(index: indexPath.row)
+        self.delegate?.showContactDetail()
+    }
 }
 
 extension HomeViewController: UITableViewDataSource {

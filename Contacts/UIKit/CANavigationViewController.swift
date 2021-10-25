@@ -8,7 +8,11 @@
 import Foundation
 import UIKit
 
-class CANavigationViewController: UIViewController {
+class test: UINavigationController {
+    
+}
+
+final class CANavigationViewController: UIViewController {
     private var baseNavigationController: UINavigationController!
     
     var viewDidCloseCallback: (() -> Void)?
@@ -24,8 +28,9 @@ class CANavigationViewController: UIViewController {
     }
     
     init() {
-        self.baseNavigationController = UINavigationController()
+        baseNavigationController = UINavigationController()
         super.init(nibName: nil, bundle: nil)
+        baseNavigationController.delegate = self
     }
     
     required init?(coder: NSCoder) {
@@ -43,4 +48,8 @@ class CANavigationViewController: UIViewController {
     func pushViewController(_ viewController: UIViewController, animated: Bool) {
         baseNavigationController.pushViewController(viewController, animated: animated)
     }
+}
+
+extension CANavigationViewController: UINavigationControllerDelegate {
+    
 }

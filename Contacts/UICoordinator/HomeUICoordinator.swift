@@ -11,6 +11,7 @@ import UIKit
 protocol HomeUICoordinatorDependencyProviderType: AnyObject {
     func getCANavigationViewController() -> CANavigationViewController
     func getHomeVC() -> HomeViewController
+    func getContactDetailVC() -> ContactDetailViewController
 }
 
 class HomeUICoordinator: UICoordinatorType {
@@ -28,8 +29,20 @@ class HomeUICoordinator: UICoordinatorType {
     
     init(dependencyProvider: HomeUICoordinatorDependencyProviderType) {
         self.dependencyProvider = dependencyProvider
-        self.containerVC = dependencyProvider.getCANavigationViewController()
-        self.homeVC = dependencyProvider.getHomeVC()
+        containerVC = dependencyProvider.getCANavigationViewController()
+        homeVC = dependencyProvider.getHomeVC()
+        homeVC.delegate = self
         containerVC.viewControllers = [homeVC]
     }
+}
+
+extension HomeUICoordinator: HomeViewControllerDelegateType {
+    func showContactDetail() {
+        let contactDetailVC = dependencyProvider.getContactDetailVC()
+//        contactDetailVC.delegate = self
+        if let rootVC = rootVC as? CANavigationViewController {
+            rootVC.pushViewController(contactDetailVC, animated: true)
+        }
+    }
+    
 }

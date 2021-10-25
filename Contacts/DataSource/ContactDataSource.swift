@@ -12,14 +12,16 @@ protocol ContactDataSourceType {
     var contactList: [ContactViewModel] {get set}
     func getContactList() -> Promise<[ContactViewModel]>
     func getMoreContactList(completion: @escaping (Int?, Int?, Error?) -> ())
+    func setSelectedContact(index: Int)
+    func getSelectedContact() -> ContactViewModel
 }
 
 class ContactDataSource: ContactDataSourceType {
     var contactList = [ContactViewModel]()
-    
     var dataProviderService: DataProviderServiceType!
     var pageNumber = 1
     private var totalContactCount = 0
+    var selectedContact: ContactViewModel!
     
     init() {
         self.dataProviderService = DataProviderService()
@@ -48,7 +50,13 @@ class ContactDataSource: ContactDataSourceType {
         } .catch { error in
             completion(nil, nil, error)
         }
-        
     }
     
+    func setSelectedContact(index: Int) {
+        self.selectedContact = contactList[index]
+    }
+    
+    func getSelectedContact() -> ContactViewModel {
+        return self.selectedContact
+    }
 }

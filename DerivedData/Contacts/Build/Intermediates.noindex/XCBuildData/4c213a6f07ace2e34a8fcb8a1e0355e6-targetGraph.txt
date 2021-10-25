@@ -1,0 +1,13 @@
+Target dependency graph (5 targets)
+Kingfisher in Pods, no dependencies
+PromiseKit in Pods, no dependencies
+SnapKit in Pods, no dependencies
+Pods-Contacts in Pods, depends on:
+Kingfisher in Pods (explicit)
+PromiseKit in Pods (explicit)
+SnapKit in Pods (explicit)
+Contacts in Contacts, depends on:
+Pods-Contacts in Pods (implicit dependency via file 'Pods_Contacts.framework' in build phase 'Link Binary')
+Kingfisher in Pods (implicit dependency via options '-framework Kingfisher' in build setting 'OTHER_LDFLAGS')
+PromiseKit in Pods (implicit dependency via options '-framework PromiseKit' in build setting 'OTHER_LDFLAGS')
+SnapKit in Pods (implicit dependency via options '-framework SnapKit' in build setting 'OTHER_LDFLAGS')
