@@ -6,62 +6,6 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>08CC58FE-0309-4E5D-8998-6C04CDBFD840</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>08CC58FE-0309-4E5D-8998-6C04CDBFD840.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Contacts-cnwbifqvtocxyvfikmnknnutwzrq</string>
-			<key>timeStartedRecording</key>
-			<real>656839440.71211696</real>
-			<key>timeStoppedRecording</key>
-			<real>656839481.04850996</real>
-			<key>title</key>
-			<string>Build target Contacts</string>
-			<key>uniqueIdentifier</key>
-			<string>08CC58FE-0309-4E5D-8998-6C04CDBFD840</string>
-		</dict>
-		<key>26FA5EE5-7794-4907-BDAE-C7D739F82578</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>26FA5EE5-7794-4907-BDAE-C7D739F82578.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>PromiseKit-cpruwbnpigtxvtcuemjmnoiveppe</string>
-			<key>timeStartedRecording</key>
-			<real>656839440.71759295</real>
-			<key>timeStoppedRecording</key>
-			<real>656839466.79613996</real>
-			<key>title</key>
-			<string>Build target PromiseKit</string>
-			<key>uniqueIdentifier</key>
-			<string>26FA5EE5-7794-4907-BDAE-C7D739F82578</string>
-		</dict>
 		<key>2E82CC29-AAA7-468D-9939-039CD033F50E</key>
 		<dict>
 			<key>className</key>
@@ -89,6 +33,62 @@
 			<string>Build target Pods-Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>2E82CC29-AAA7-468D-9939-039CD033F50E</string>
+		</dict>
+		<key>8751AA26-F3C7-4A52-AA60-826C4F06A22C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>8751AA26-F3C7-4A52-AA60-826C4F06A22C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Contacts-cnwbifqvtocxyvfikmnknnutwzrq</string>
+			<key>timeStartedRecording</key>
+			<real>656850586.23319805</real>
+			<key>timeStoppedRecording</key>
+			<real>656850593.81081104</real>
+			<key>title</key>
+			<string>Build target Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>8751AA26-F3C7-4A52-AA60-826C4F06A22C</string>
+		</dict>
+		<key>87534B37-4DFE-47F6-8009-592AFBA76ABC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>87534B37-4DFE-47F6-8009-592AFBA76ABC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>PromiseKit-cpruwbnpigtxvtcuemjmnoiveppe</string>
+			<key>timeStartedRecording</key>
+			<real>656850593.81108105</real>
+			<key>timeStoppedRecording</key>
+			<real>656850593.81132901</real>
+			<key>title</key>
+			<string>Build target PromiseKit</string>
+			<key>uniqueIdentifier</key>
+			<string>87534B37-4DFE-47F6-8009-592AFBA76ABC</string>
 		</dict>
 		<key>DE89F5CD-F553-401F-A445-B78647C9BE5D</key>
 		<dict>

@@ -49,6 +49,19 @@ class HomeViewController: UIViewController {
         }
     }
     
+    func loadMoreContact() {
+        dataSource.getMoreContactList() { startIndex, endIndex, error in
+            if error != nil {return}
+            guard let startIndex = startIndex, let endIndex = endIndex else {return}
+            var indexPathArray = [IndexPath]()
+            for i in startIndex..<endIndex {
+                let path = IndexPath(item: i, section: 0)
+                indexPathArray.append(path)
+            }
+            self.tableView.insertRows(at: indexPathArray, with: .none)
+        }
+    }
+    
     func setUpTableView() {
         tableView.dataSource = self
         tableView.delegate = self
@@ -95,5 +108,11 @@ extension HomeViewController: UITableViewDataSource {
         
         cell.selectionStyle = .none
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if indexPath.row == dataSource.contactList.count - 5 {
+            loadMoreContact()
+        }
     }
 }

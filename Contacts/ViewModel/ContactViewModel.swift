@@ -7,6 +7,11 @@
 
 import Foundation
 
+struct ContactListViewModel: Decodable {
+    let totalItem: Int
+    let list: [ContactViewModel]
+}
+
 struct ContactViewModel: Decodable {
     let id: Int
     let email: String

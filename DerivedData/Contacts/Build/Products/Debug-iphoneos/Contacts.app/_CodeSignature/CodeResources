@@ -50,7 +50,7 @@
 		</data>
 		<key>Frameworks/Kingfisher.framework/Kingfisher</key>
 		<data>
-		zSNV8TmdZxJuBDy9WIUnm3q2p9E=
+		PkluDOguRm6q3juGedbTZD+mXgs=
 		</data>
 		<key>Frameworks/Kingfisher.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Frameworks/PromiseKit.framework/PromiseKit</key>
 		<data>
-		EmxQ3iF9bRbVimxV7lcBt3fglZM=
+		DoHAas8pwU/U5TDcvtrDd3XQIFI=
 		</data>
 		<key>Frameworks/PromiseKit.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Frameworks/SnapKit.framework/SnapKit</key>
 		<data>
-		6ah5CyJ+zUvuRAdBfIhpPgWnNxE=
+		Z64aDEKSj+npI12gd6zHLQgYVpo=
 		</data>
 		<key>Frameworks/SnapKit.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -176,7 +176,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rjYVJGiu15CXD1BezVMrQ9G8T7nk7xtJ/vBKyPEW894=
+			pKaHE1++9vm/D4WQ3xdMGv+c3UtV9ukjiZsPPnUPJ+w=
 			</data>
 		</dict>
 		<key>Frameworks/Kingfisher.framework/_CodeSignature/CodeResources</key>
@@ -197,7 +197,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			URYXymYeyPxKwyLUrVE5WW3Xw2C2xUYHgfKPzvsUpIU=
+			bMpj3bUJ7x9GAZLjYxnmhF2dJhHBYKlWiUpy0aXLo20=
 			</data>
 		</dict>
 		<key>Frameworks/PromiseKit.framework/_CodeSignature/CodeResources</key>
@@ -218,7 +218,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/Z7Y4n8irefYqTyH/lnbOcOPXmmORGm8jKiuJMNllks=
+			RNY54g4IBHoM+3qjDX9tNs3oUdtPljqQv3aVZmS9a/g=
 			</data>
 		</dict>
 		<key>Frameworks/SnapKit.framework/_CodeSignature/CodeResources</key>

@@ -9,7 +9,7 @@ import Foundation
 import PromiseKit
 
 protocol DataProviderServiceType {
-    func getContactList() -> Promise<[ContactViewModel]>
+    func getContactList(pageNum: Int) -> Promise<ContactListViewModel>
 }
 
 class DataProviderService: DataProviderServiceType {
@@ -17,12 +17,17 @@ class DataProviderService: DataProviderServiceType {
         
     }
     
-    func getContactList() -> Promise<[ContactViewModel]> {
+    func getContactList(pageNum: Int) -> Promise<ContactListViewModel> {
         return Promise { seal in
-            NetworkServiceRequest().getContactList() { apiResult in
+            NetworkServiceRequest().getContactList(pageNum: pageNum) { apiResult in
                 switch apiResult {
-                case .success(let contactList):
-                    seal.fulfill(contactList)
+                case .success(let contactAPIModel):
+                    
+                    var contactList = [ContactViewModel]()
+                    contactList = contactAPIModel.data.map { contact in
+                        ContactViewModel(id: contact.id, email: contact.email, firstName: contact.first_name, lastName: contact.last_name, avatarUrlString: contact.avatar)
+                    }
+                    seal.fulfill(ContactListViewModel(totalItem: contactAPIModel.total, list: contactList))
                     
                 case .failure(let error):
                     seal.reject(error)
@@ -31,3 +36,5 @@ class DataProviderService: DataProviderServiceType {
         }
     }
 }
+
+
