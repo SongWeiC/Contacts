@@ -1,8 +1,13 @@
 version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
 options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
-build_start_time: [1635085113, 685101985]
-build_end_time: [1635085123, 688979148]
+build_start_time: [1635137449, 915017127]
+build_end_time: [1635137450, 816416978]
 inputs:
-  "/Users/songweichuah/Desktop/Contacts/Contacts/AppDelegate.swift": [1635084991, 929545879]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/AppDelegate.swift": [1635126661, 475237369]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/AppRegistry/AppRegistry+HomeUICoordinator.swift": [1635137402, 548080444]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/AppRegistry/AppRegistry.swift": [1635126661, 441455364]
   "/Users/songweichuah/Desktop/Contacts/Contacts/SceneDelegate.swift": [1635084991, 936682462]
-  "/Users/songweichuah/Desktop/Contacts/Contacts/ViewController.swift": [1635084991, 939997673]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/UICoordinator/HomeUICoordinator.swift": [1635136675, 602348804]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/UICoordinator/UICoordinatorType.swift": [1635136749, 342128992]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/UIKit/CANavigationViewController.swift": [1635136675, 568192481]
+  "/Users/songweichuah/Desktop/Contacts/Contacts/ViewController/HomeViewController.swift": [1635137448, 9385108]

@@ -1,0 +1,25 @@
+//
+//  AppRegistry.swift
+//  Contacts
+//
+//  Created by SongWei Chuah on 24/10/21.
+//
+
+import Foundation
+import UIKit
+
+class AppRegistry {
+    private(set) var window: UIWindow!
+    private(set) var rootUICoordinator: HomeUICoordinator?
+    
+    init(){}
+    
+    func createAppRootViewController(window: UIWindow) {
+        self.window = window
+        self.window!.rootViewController = createHomeUICoordinator().rootVC
+    }
+    
+    func createHomeUICoordinator() -> HomeUICoordinator {
+        return HomeUICoordinator(dependencyProvider: self)
+    }
+}

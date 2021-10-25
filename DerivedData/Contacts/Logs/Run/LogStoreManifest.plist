@@ -5,6 +5,75 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>ED09B5C4-480E-4C30-89F3-D0F27636387D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>ED09B5C4-480E-4C30-89F3-D0F27636387D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656830251.16776597</real>
+			<key>timeStoppedRecording</key>
+			<real>656830272.74365306</real>
+			<key>title</key>
+			<string>Run Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>ED09B5C4-480E-4C30-89F3-D0F27636387D</string>
+		</dict>
+		<key>F8F15410-1CB7-49C1-A916-B64764F680AA</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F8F15410-1CB7-49C1-A916-B64764F680AA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656777965.81396496</real>
+			<key>timeStoppedRecording</key>
+			<real>656778031.40442801</real>
+			<key>title</key>
+			<string>Run Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>F8F15410-1CB7-49C1-A916-B64764F680AA</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
