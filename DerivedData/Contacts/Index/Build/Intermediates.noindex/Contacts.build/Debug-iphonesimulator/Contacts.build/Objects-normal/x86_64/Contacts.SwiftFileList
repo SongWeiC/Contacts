@@ -1,5 +1,7 @@
 /Users/songweichuah/Desktop/Contacts/Contacts/Networking/WebServiceHelper.swift
+/Users/songweichuah/Desktop/Contacts/Contacts/ViewController/EditContactDetailViewController.swift
 /Users/songweichuah/Desktop/Contacts/Contacts/ViewController/ContactDetailViewController.swift
+/Users/songweichuah/Desktop/Contacts/Contacts/UIKit/CABaseTextField.swift
 /Users/songweichuah/Desktop/Contacts/Contacts/ViewModel/ContactViewModel.swift
 /Users/songweichuah/Desktop/Contacts/Contacts/UICoordinator/HomeUICoordinator.swift
 /Users/songweichuah/Desktop/Contacts/Contacts/Networking/NetworkServiceRequest.swift
@@ -10,6 +12,7 @@
 /Users/songweichuah/Desktop/Contacts/Contacts/AppDelegate.swift
 /Users/songweichuah/Desktop/Contacts/Contacts/Service/DataProviderService.swift
 /Users/songweichuah/Desktop/Contacts/Contacts/ViewController/HomeViewController.swift
+/Users/songweichuah/Desktop/Contacts/Contacts/ContactViewTile/EditContactDetailView.swift
 /Users/songweichuah/Desktop/Contacts/Contacts/SceneDelegate.swift
 /Users/songweichuah/Desktop/Contacts/Contacts/Networking/JSONResponseDecoder.swift
 /Users/songweichuah/Desktop/Contacts/Contacts/ContactViewTile/DetailsActionView.swift
@@ -18,4 +21,5 @@
 /Users/songweichuah/Desktop/Contacts/Contacts/UICoordinator/UICoordinatorType.swift
 /Users/songweichuah/Desktop/Contacts/Contacts/ViewController/HomeTableViewCell.swift
 /Users/songweichuah/Desktop/Contacts/Contacts/ContactViewTile/ContactDetailView.swift
+/Users/songweichuah/Desktop/Contacts/Contacts/UIKit/CATextField.swift
 /Users/songweichuah/Desktop/Contacts/Contacts/DataSource/ContactDataSource.swift

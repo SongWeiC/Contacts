@@ -8,9 +8,13 @@
 import Foundation
 import UIKit
 
+protocol ContactDetailVCDelegateType: AnyObject {
+    func userDidTapEdit()
+}
+
 class ContactDetailViewController: UIViewController {
     private let dataSource: ContactDataSourceType
-    
+    weak var delegate: ContactDetailVCDelegateType?
     required init(dataSource: ContactDataSourceType) {
         self.dataSource = dataSource
         super.init(nibName: nil, bundle: nil)
@@ -31,7 +35,7 @@ class ContactDetailViewController: UIViewController {
     }
     
     @objc func userDidSelectEditButton() {
-        print("addbutton tapped")
+        self.delegate?.userDidTapEdit()
     }
     
     func setUpDetailView() {

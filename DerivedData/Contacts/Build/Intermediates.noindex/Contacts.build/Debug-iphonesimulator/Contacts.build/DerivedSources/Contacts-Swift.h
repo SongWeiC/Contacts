@@ -220,6 +220,16 @@ SWIFT_CLASS("_TtC8Contacts11AppDelegate")
 @end
 
 @class NSCoder;
+
+SWIFT_CLASS("_TtC8Contacts15CABaseTextField")
+@interface CABaseTextField : UITextField
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (CGRect)textRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+- (CGRect)placeholderRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+- (CGRect)editingRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class NSString;
 @class NSBundle;
 
@@ -233,6 +243,22 @@ SWIFT_CLASS("_TtC8Contacts26CANavigationViewController")
 
 
 @interface CANavigationViewController (SWIFT_EXTENSION(Contacts)) <UINavigationControllerDelegate>
+@end
+
+
+SWIFT_CLASS("_TtC8Contacts11CATextField")
+@interface CATextField : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly) CGSize intrinsicContentSize;
+- (BOOL)becomeFirstResponder SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+@interface CATextField (SWIFT_EXTENSION(Contacts)) <UITextFieldDelegate>
+- (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
+- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -263,6 +289,24 @@ SWIFT_CLASS("_TtC8Contacts17DetailsActionView")
 @interface DetailsActionView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC8Contacts21EditContactDetailView")
+@interface EditContactDetailView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)userDidSelectCancelButton;
+- (void)userDidSelectDoneButton;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+
+SWIFT_CLASS("_TtC8Contacts31EditContactDetailViewController")
+@interface EditContactDetailViewController : UIViewController
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
 

@@ -40,6 +40,74 @@
 			<key>uniqueIdentifier</key>
 			<string>01EE7DA0-093F-4180-A409-2521C7D25C5D</string>
 		</dict>
+		<key>05DEF94D-DC80-453B-A060-25D7E6228218</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>05DEF94D-DC80-453B-A060-25D7E6228218.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656915283.51546395</real>
+			<key>timeStoppedRecording</key>
+			<real>656915284.64777696</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>05DEF94D-DC80-453B-A060-25D7E6228218</string>
+		</dict>
+		<key>06286E3F-A2F7-4191-BE41-B3BF86A8CFD7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>06286E3F-A2F7-4191-BE41-B3BF86A8CFD7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656908120.29445398</real>
+			<key>timeStoppedRecording</key>
+			<real>656908122.44557095</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>06286E3F-A2F7-4191-BE41-B3BF86A8CFD7</string>
+		</dict>
 		<key>0A0FB778-D49F-427B-AAFA-6EF1C6599DA7</key>
 		<dict>
 			<key>className</key>
@@ -74,6 +142,40 @@
 			<key>uniqueIdentifier</key>
 			<string>0A0FB778-D49F-427B-AAFA-6EF1C6599DA7</string>
 		</dict>
+		<key>0C33B426-FA6F-41AD-AC77-16BAE754996A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0C33B426-FA6F-41AD-AC77-16BAE754996A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656911906.82794905</real>
+			<key>timeStoppedRecording</key>
+			<real>656911908.481143</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>0C33B426-FA6F-41AD-AC77-16BAE754996A</string>
+		</dict>
 		<key>0C5F7613-0217-4323-A3B2-14C028A87E16</key>
 		<dict>
 			<key>className</key>
@@ -107,6 +209,40 @@
 			<string>Build Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>0C5F7613-0217-4323-A3B2-14C028A87E16</string>
+		</dict>
+		<key>0E328FF0-11F7-400C-829B-26F431741C23</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0E328FF0-11F7-400C-829B-26F431741C23.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656907600.30496705</real>
+			<key>timeStoppedRecording</key>
+			<real>656907601.72487104</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>0E328FF0-11F7-400C-829B-26F431741C23</string>
 		</dict>
 		<key>0E5DC9DA-5557-479E-A8FA-6FA398193DE1</key>
 		<dict>
@@ -244,6 +380,108 @@
 			<key>uniqueIdentifier</key>
 			<string>13ED7ADB-93F2-4AB9-A515-3F42ED71CB1C</string>
 		</dict>
+		<key>15250DDB-582A-46EB-948D-D5EEEDB8B11B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>15250DDB-582A-46EB-948D-D5EEEDB8B11B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656915309.74398196</real>
+			<key>timeStoppedRecording</key>
+			<real>656915310.66110599</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>15250DDB-582A-46EB-948D-D5EEEDB8B11B</string>
+		</dict>
+		<key>15457DA6-1F89-49A4-BB5D-5C81E640C240</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>15457DA6-1F89-49A4-BB5D-5C81E640C240.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656915801.63273895</real>
+			<key>timeStoppedRecording</key>
+			<real>656915803.01513302</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>15457DA6-1F89-49A4-BB5D-5C81E640C240</string>
+		</dict>
+		<key>16D436A0-BEC2-4DAA-AF50-F488032FB152</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>16D436A0-BEC2-4DAA-AF50-F488032FB152.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656920157.24610102</real>
+			<key>timeStoppedRecording</key>
+			<real>656920160.87817597</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>16D436A0-BEC2-4DAA-AF50-F488032FB152</string>
+		</dict>
 		<key>170CDF64-60FA-4E13-9A7B-3020C56AB619</key>
 		<dict>
 			<key>className</key>
@@ -311,6 +549,40 @@
 			<string>Build Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>19735D76-4F38-4BF6-9629-AD7C3C5E27C0</string>
+		</dict>
+		<key>19D26538-31DB-4F25-B07A-97277B7E308E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>19D26538-31DB-4F25-B07A-97277B7E308E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656908488.36316895</real>
+			<key>timeStoppedRecording</key>
+			<real>656908489.99881303</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>19D26538-31DB-4F25-B07A-97277B7E308E</string>
 		</dict>
 		<key>1ADD980C-0A04-4843-A392-EC906E99D95E</key>
 		<dict>
@@ -482,6 +754,40 @@
 			<key>uniqueIdentifier</key>
 			<string>2227AED4-DE50-40D1-AA61-67AF87B88A87</string>
 		</dict>
+		<key>226C1CA9-C75B-4809-BDE3-A6A39B422990</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>226C1CA9-C75B-4809-BDE3-A6A39B422990.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656920487.75131595</real>
+			<key>timeStoppedRecording</key>
+			<real>656920487.94221199</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>226C1CA9-C75B-4809-BDE3-A6A39B422990</string>
+		</dict>
 		<key>2271CDDC-0DF4-4BF1-B607-AC6B37F11509</key>
 		<dict>
 			<key>className</key>
@@ -583,6 +889,40 @@
 			<string>Build Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>2447C8E8-5103-48B7-9B86-1687C46B971B</string>
+		</dict>
+		<key>24533179-B76D-422F-8D10-061119FA3B46</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>24533179-B76D-422F-8D10-061119FA3B46.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656874787.72535396</real>
+			<key>timeStoppedRecording</key>
+			<real>656874788.58909094</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>24533179-B76D-422F-8D10-061119FA3B46</string>
 		</dict>
 		<key>253179D8-7CE0-415A-846E-AF974A9D7133</key>
 		<dict>
@@ -686,6 +1026,40 @@
 			<key>uniqueIdentifier</key>
 			<string>27B9A9E9-D9D0-4E02-9BAC-0C19D17B999C</string>
 		</dict>
+		<key>289C5D7E-6F2D-4A16-B04D-E1E2A69DCBFA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>289C5D7E-6F2D-4A16-B04D-E1E2A69DCBFA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656910213.28670001</real>
+			<key>timeStoppedRecording</key>
+			<real>656910216.51523602</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>289C5D7E-6F2D-4A16-B04D-E1E2A69DCBFA</string>
+		</dict>
 		<key>2A049DA4-A2DC-4330-805F-B65009BF7C49</key>
 		<dict>
 			<key>className</key>
@@ -719,6 +1093,40 @@
 			<string>Build Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>2A049DA4-A2DC-4330-805F-B65009BF7C49</string>
+		</dict>
+		<key>2B67E800-BC7A-4906-9020-0592B83F9800</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2B67E800-BC7A-4906-9020-0592B83F9800.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656919756.263713</real>
+			<key>timeStoppedRecording</key>
+			<real>656919769.68064106</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>2B67E800-BC7A-4906-9020-0592B83F9800</string>
 		</dict>
 		<key>2F107AB0-DDA1-415B-9AA8-C607AE4B5BBB</key>
 		<dict>
@@ -787,6 +1195,40 @@
 			<string>Build Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>2F16F42E-577A-4237-9EEC-F979B9F120A7</string>
+		</dict>
+		<key>2F32DB59-ACDA-436E-BD98-DB10E4E024FD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2F32DB59-ACDA-436E-BD98-DB10E4E024FD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656923439.11107099</real>
+			<key>timeStoppedRecording</key>
+			<real>656923441.38135803</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>2F32DB59-ACDA-436E-BD98-DB10E4E024FD</string>
 		</dict>
 		<key>2F75CA74-96B9-478C-B5CB-EE8CFA2E5D74</key>
 		<dict>
@@ -890,6 +1332,40 @@
 			<key>uniqueIdentifier</key>
 			<string>33A401EF-C1E5-4774-8EB0-062DE6A0922A</string>
 		</dict>
+		<key>34BAD8A5-4AA3-47B6-97C1-3D627864FD46</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>34BAD8A5-4AA3-47B6-97C1-3D627864FD46.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656920251.233935</real>
+			<key>timeStoppedRecording</key>
+			<real>656920252.95580494</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>34BAD8A5-4AA3-47B6-97C1-3D627864FD46</string>
+		</dict>
 		<key>35559D49-D847-4EE3-854F-3C4784FA3A33</key>
 		<dict>
 			<key>className</key>
@@ -923,6 +1399,40 @@
 			<string>Build Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>35559D49-D847-4EE3-854F-3C4784FA3A33</string>
+		</dict>
+		<key>3590DF85-7BA5-4A8C-8683-718B35003511</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3590DF85-7BA5-4A8C-8683-718B35003511.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656908055.71338701</real>
+			<key>timeStoppedRecording</key>
+			<real>656908059.67984605</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>3590DF85-7BA5-4A8C-8683-718B35003511</string>
 		</dict>
 		<key>372A236A-A43E-4E26-BE57-461A2FDA6819</key>
 		<dict>
@@ -1060,6 +1570,244 @@
 			<key>uniqueIdentifier</key>
 			<string>3CD3C174-6165-4AF9-B719-CAB9B979B483</string>
 		</dict>
+		<key>40DF3F87-8FF2-48D6-B764-EBAECD2DEB6B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>40DF3F87-8FF2-48D6-B764-EBAECD2DEB6B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656909033.72606802</real>
+			<key>timeStoppedRecording</key>
+			<real>656909035.54543805</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>40DF3F87-8FF2-48D6-B764-EBAECD2DEB6B</string>
+		</dict>
+		<key>42C2F30A-5CCE-45EF-A5EC-00CD4827B4B7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>42C2F30A-5CCE-45EF-A5EC-00CD4827B4B7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656911492.56851602</real>
+			<key>timeStoppedRecording</key>
+			<real>656911498.01843202</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>42C2F30A-5CCE-45EF-A5EC-00CD4827B4B7</string>
+		</dict>
+		<key>42CEE5B0-3394-4919-AA42-19C3354BC824</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>42CEE5B0-3394-4919-AA42-19C3354BC824.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656915498.97036302</real>
+			<key>timeStoppedRecording</key>
+			<real>656915500.83043802</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>42CEE5B0-3394-4919-AA42-19C3354BC824</string>
+		</dict>
+		<key>44050593-7359-4FB3-BDF9-B9EDF829BF89</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>44050593-7359-4FB3-BDF9-B9EDF829BF89.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656920729.39983594</real>
+			<key>timeStoppedRecording</key>
+			<real>656920731.92503798</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>44050593-7359-4FB3-BDF9-B9EDF829BF89</string>
+		</dict>
+		<key>444B763C-C4BE-4D40-90FB-5271E64C55D4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>444B763C-C4BE-4D40-90FB-5271E64C55D4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656914672.03259897</real>
+			<key>timeStoppedRecording</key>
+			<real>656914673.86744106</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>444B763C-C4BE-4D40-90FB-5271E64C55D4</string>
+		</dict>
+		<key>450B08FC-E1B1-47C8-9ED9-4B9007443D19</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>450B08FC-E1B1-47C8-9ED9-4B9007443D19.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656870595.27566004</real>
+			<key>timeStoppedRecording</key>
+			<real>656870597.97957802</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>450B08FC-E1B1-47C8-9ED9-4B9007443D19</string>
+		</dict>
+		<key>4510FD48-6771-4AE9-8FE8-7B031622F9D1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4510FD48-6771-4AE9-8FE8-7B031622F9D1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656924449.21343505</real>
+			<key>timeStoppedRecording</key>
+			<real>656924452.76830995</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>4510FD48-6771-4AE9-8FE8-7B031622F9D1</string>
+		</dict>
 		<key>473CE6F5-ABF4-4A4E-9015-9EB92529B64C</key>
 		<dict>
 			<key>className</key>
@@ -1162,6 +1910,40 @@
 			<key>uniqueIdentifier</key>
 			<string>4BBD0465-DA52-49A5-AD3A-47EF3F042C8B</string>
 		</dict>
+		<key>53CE63E2-63C6-4F74-BD00-B04769EBB9B0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>53CE63E2-63C6-4F74-BD00-B04769EBB9B0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656923393.07363701</real>
+			<key>timeStoppedRecording</key>
+			<real>656923407.259341</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>53CE63E2-63C6-4F74-BD00-B04769EBB9B0</string>
+		</dict>
 		<key>5476AE9E-EE20-40B0-99E6-95ADDB40B858</key>
 		<dict>
 			<key>className</key>
@@ -1230,6 +2012,176 @@
 			<key>uniqueIdentifier</key>
 			<string>569C951D-31C0-417E-BDF5-BDA150E8519C</string>
 		</dict>
+		<key>5BACC9E7-2785-44C5-AEBD-738C6A687914</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5BACC9E7-2785-44C5-AEBD-738C6A687914.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656870830.76627898</real>
+			<key>timeStoppedRecording</key>
+			<real>656870832.15818</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>5BACC9E7-2785-44C5-AEBD-738C6A687914</string>
+		</dict>
+		<key>5CC71A6C-0148-4158-8902-13F06707F47B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5CC71A6C-0148-4158-8902-13F06707F47B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656874808.22490799</real>
+			<key>timeStoppedRecording</key>
+			<real>656874810.607939</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>5CC71A6C-0148-4158-8902-13F06707F47B</string>
+		</dict>
+		<key>5D5B5D81-9A5A-490F-93EA-C68D7F8912FA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5D5B5D81-9A5A-490F-93EA-C68D7F8912FA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656914281.85442901</real>
+			<key>timeStoppedRecording</key>
+			<real>656914283.08916998</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>5D5B5D81-9A5A-490F-93EA-C68D7F8912FA</string>
+		</dict>
+		<key>60D5C670-B3B4-49A4-A111-FFB5B99F71FE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>60D5C670-B3B4-49A4-A111-FFB5B99F71FE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656907988.88852799</real>
+			<key>timeStoppedRecording</key>
+			<real>656907994.03599298</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>60D5C670-B3B4-49A4-A111-FFB5B99F71FE</string>
+		</dict>
+		<key>65B41C13-60C8-401A-AE28-BE6C9E8A4B7E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>65B41C13-60C8-401A-AE28-BE6C9E8A4B7E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656871079.28780103</real>
+			<key>timeStoppedRecording</key>
+			<real>656871081.21419597</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>65B41C13-60C8-401A-AE28-BE6C9E8A4B7E</string>
+		</dict>
 		<key>665506F6-F319-42B8-8811-38DD8E26538C</key>
 		<dict>
 			<key>className</key>
@@ -1263,6 +2215,40 @@
 			<string>Build Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>665506F6-F319-42B8-8811-38DD8E26538C</string>
+		</dict>
+		<key>6797FE81-3EC0-46A6-8445-E2296CBAC6EF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6797FE81-3EC0-46A6-8445-E2296CBAC6EF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656908175.97464097</real>
+			<key>timeStoppedRecording</key>
+			<real>656908178.99525595</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>6797FE81-3EC0-46A6-8445-E2296CBAC6EF</string>
 		</dict>
 		<key>695D0F58-8847-4CEB-871D-ECB1C1BF9248</key>
 		<dict>
@@ -1366,6 +2352,40 @@
 			<key>uniqueIdentifier</key>
 			<string>6B36242C-E586-46C0-9FBD-10139A3680A5</string>
 		</dict>
+		<key>7014BE4B-46A3-4083-BCFF-30C6F52DBF3A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7014BE4B-46A3-4083-BCFF-30C6F52DBF3A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656870717.92130101</real>
+			<key>timeStoppedRecording</key>
+			<real>656870719.42675996</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>7014BE4B-46A3-4083-BCFF-30C6F52DBF3A</string>
+		</dict>
 		<key>71458CB1-4F13-4064-BAED-94E3B7328764</key>
 		<dict>
 			<key>className</key>
@@ -1399,6 +2419,108 @@
 			<string>Build Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>71458CB1-4F13-4064-BAED-94E3B7328764</string>
+		</dict>
+		<key>71828879-1CC3-405B-878F-4020186F0FD4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>71828879-1CC3-405B-878F-4020186F0FD4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656915888.83647501</real>
+			<key>timeStoppedRecording</key>
+			<real>656915890.39045894</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>71828879-1CC3-405B-878F-4020186F0FD4</string>
+		</dict>
+		<key>725CA335-1417-45E4-8700-87AE5E5D0152</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>725CA335-1417-45E4-8700-87AE5E5D0152.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656870765.65139699</real>
+			<key>timeStoppedRecording</key>
+			<real>656870767.14678597</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>725CA335-1417-45E4-8700-87AE5E5D0152</string>
+		</dict>
+		<key>74C3D727-34D3-4B89-A5CC-E3DBCF38FDD5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>74C3D727-34D3-4B89-A5CC-E3DBCF38FDD5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656912464.96367705</real>
+			<key>timeStoppedRecording</key>
+			<real>656912465.91592896</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>74C3D727-34D3-4B89-A5CC-E3DBCF38FDD5</string>
 		</dict>
 		<key>774F5BB1-ECC8-499A-A710-EE3FD22D6E85</key>
 		<dict>
@@ -1467,6 +2589,40 @@
 			<string>Build Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>78837465-7C57-45FA-9D7D-EBB80F6DFD43</string>
+		</dict>
+		<key>78A56FAA-9EE5-46B6-8A80-E312A3AAB628</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>78A56FAA-9EE5-46B6-8A80-E312A3AAB628.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656924415.99696803</real>
+			<key>timeStoppedRecording</key>
+			<real>656924419.12580204</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>78A56FAA-9EE5-46B6-8A80-E312A3AAB628</string>
 		</dict>
 		<key>7B3F4EB7-AAD6-41EE-9BF4-002E64745172</key>
 		<dict>
@@ -1604,6 +2760,40 @@
 			<key>uniqueIdentifier</key>
 			<string>83B46D8D-C95E-4B87-B49C-72A743A6CABF</string>
 		</dict>
+		<key>881A344E-D59A-43E5-ABC1-2972AF3578C0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>881A344E-D59A-43E5-ABC1-2972AF3578C0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656915476.48149502</real>
+			<key>timeStoppedRecording</key>
+			<real>656915477.34777606</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>881A344E-D59A-43E5-ABC1-2972AF3578C0</string>
+		</dict>
 		<key>886140A5-DDCB-4AEF-9B01-075D70CB87B2</key>
 		<dict>
 			<key>className</key>
@@ -1740,6 +2930,74 @@
 			<key>uniqueIdentifier</key>
 			<string>89FA5A28-1D1A-4FCD-8CA0-764217DA5261</string>
 		</dict>
+		<key>8AFB85D3-EEAA-4FD0-B0E7-4C7BC0C8463B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8AFB85D3-EEAA-4FD0-B0E7-4C7BC0C8463B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656870806.44036698</real>
+			<key>timeStoppedRecording</key>
+			<real>656870807.0402</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>8AFB85D3-EEAA-4FD0-B0E7-4C7BC0C8463B</string>
+		</dict>
+		<key>8DB380EA-541A-4D4A-91B9-EC7FBBC2C89D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8DB380EA-541A-4D4A-91B9-EC7FBBC2C89D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656915837.048401</real>
+			<key>timeStoppedRecording</key>
+			<real>656915838.64640105</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>8DB380EA-541A-4D4A-91B9-EC7FBBC2C89D</string>
+		</dict>
 		<key>8EF2851B-4BBD-4EB3-AF69-A271066ABD45</key>
 		<dict>
 			<key>className</key>
@@ -1773,6 +3031,74 @@
 			<string>Build Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>8EF2851B-4BBD-4EB3-AF69-A271066ABD45</string>
+		</dict>
+		<key>8FDB62E2-78C2-4D77-B75E-8F40A9325236</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8FDB62E2-78C2-4D77-B75E-8F40A9325236.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656920663.276685</real>
+			<key>timeStoppedRecording</key>
+			<real>656920665.87405002</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>8FDB62E2-78C2-4D77-B75E-8F40A9325236</string>
+		</dict>
+		<key>9062EE00-9C10-4DE1-90C9-58C1E274D6BF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9062EE00-9C10-4DE1-90C9-58C1E274D6BF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656914582.55672705</real>
+			<key>timeStoppedRecording</key>
+			<real>656914584.94399595</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>9062EE00-9C10-4DE1-90C9-58C1E274D6BF</string>
 		</dict>
 		<key>91E30F99-9A44-48A2-AE94-82A5A410FBEC</key>
 		<dict>
@@ -1876,6 +3202,40 @@
 			<key>uniqueIdentifier</key>
 			<string>93DF4727-59AF-4DEC-9DF6-AA3E7AB7DF68</string>
 		</dict>
+		<key>9513C96F-6147-4878-96D5-F31DBCC65560</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9513C96F-6147-4878-96D5-F31DBCC65560.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656909650.73213303</real>
+			<key>timeStoppedRecording</key>
+			<real>656909652.57526302</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>9513C96F-6147-4878-96D5-F31DBCC65560</string>
+		</dict>
 		<key>95DF9D72-D3EC-4EA6-9D9C-AC65342ADF80</key>
 		<dict>
 			<key>className</key>
@@ -1943,6 +3303,40 @@
 			<string>Build Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>97D61F1F-D39B-4E94-A111-CDC24ABA507C</string>
+		</dict>
+		<key>9ACE2151-EE80-4716-B667-51ACFE596669</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9ACE2151-EE80-4716-B667-51ACFE596669.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656874645.89290094</real>
+			<key>timeStoppedRecording</key>
+			<real>656874649.25280702</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>9ACE2151-EE80-4716-B667-51ACFE596669</string>
 		</dict>
 		<key>9BD43052-67FA-4B4F-83C6-9DF90AF2C9C9</key>
 		<dict>
@@ -2012,6 +3406,74 @@
 			<key>uniqueIdentifier</key>
 			<string>9CBFABB8-5787-43DB-80E1-BAC44D7F7B89</string>
 		</dict>
+		<key>9CEFD208-DDFB-4EFF-91DF-06A066DA0A03</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9CEFD208-DDFB-4EFF-91DF-06A066DA0A03.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656875068.01245499</real>
+			<key>timeStoppedRecording</key>
+			<real>656875069.47159696</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>9CEFD208-DDFB-4EFF-91DF-06A066DA0A03</string>
+		</dict>
+		<key>9E8BB62F-4A84-4FB5-82D3-8F0AE9CD6E3C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9E8BB62F-4A84-4FB5-82D3-8F0AE9CD6E3C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656909506.46259296</real>
+			<key>timeStoppedRecording</key>
+			<real>656909508.23919702</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>9E8BB62F-4A84-4FB5-82D3-8F0AE9CD6E3C</string>
+		</dict>
 		<key>A0F7D973-538A-4C62-9EF5-A3C46BF3888A</key>
 		<dict>
 			<key>className</key>
@@ -2080,6 +3542,40 @@
 			<key>uniqueIdentifier</key>
 			<string>A173D3B1-09A0-4ECF-99AF-B09CC6496154</string>
 		</dict>
+		<key>A41D7A1F-13ED-4BBC-B3C0-7FEF55C1E4D2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A41D7A1F-13ED-4BBC-B3C0-7FEF55C1E4D2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656907737.07213295</real>
+			<key>timeStoppedRecording</key>
+			<real>656907741.55486</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>A41D7A1F-13ED-4BBC-B3C0-7FEF55C1E4D2</string>
+		</dict>
 		<key>A47B75EC-9497-4238-964B-0B694FD3F6E1</key>
 		<dict>
 			<key>className</key>
@@ -2147,6 +3643,40 @@
 			<string>Build Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>A55435DE-3298-4E4E-A1E8-176D5C162599</string>
+		</dict>
+		<key>A63FB272-4879-4EDF-94ED-73258EC95F43</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A63FB272-4879-4EDF-94ED-73258EC95F43.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656909227.15994596</real>
+			<key>timeStoppedRecording</key>
+			<real>656909228.70177603</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>A63FB272-4879-4EDF-94ED-73258EC95F43</string>
 		</dict>
 		<key>A9C9CE4D-8253-4001-99ED-F0411F636D49</key>
 		<dict>
@@ -2284,6 +3814,40 @@
 			<key>uniqueIdentifier</key>
 			<string>B032BC09-6CD2-4583-BF54-C40492B3F838</string>
 		</dict>
+		<key>B06804E6-6F76-4631-8BE9-4F46BF418A10</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B06804E6-6F76-4631-8BE9-4F46BF418A10.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656915914.59492004</real>
+			<key>timeStoppedRecording</key>
+			<real>656915916.14027202</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>B06804E6-6F76-4631-8BE9-4F46BF418A10</string>
+		</dict>
 		<key>B0B6B6FD-D36D-4BEA-B27F-4FB958574A79</key>
 		<dict>
 			<key>className</key>
@@ -2385,6 +3949,40 @@
 			<string>Build Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>B52079A3-1947-4180-BB1F-32D16EEC62CD</string>
+		</dict>
+		<key>B5E5AF23-F7AC-4D18-BA5C-E40F6CA1B2AA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B5E5AF23-F7AC-4D18-BA5C-E40F6CA1B2AA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656909177.71156704</real>
+			<key>timeStoppedRecording</key>
+			<real>656909181.16070902</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>B5E5AF23-F7AC-4D18-BA5C-E40F6CA1B2AA</string>
 		</dict>
 		<key>B660B4A5-1745-4FCC-B028-981082063760</key>
 		<dict>
@@ -2590,6 +4188,40 @@
 			<key>uniqueIdentifier</key>
 			<string>BC81A5B1-29B7-46D8-8ABE-7F7085F62F93</string>
 		</dict>
+		<key>BDEDBBA4-80B6-47A9-9BAA-7B855C00F787</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BDEDBBA4-80B6-47A9-9BAA-7B855C00F787.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656874993.48385203</real>
+			<key>timeStoppedRecording</key>
+			<real>656874995.29400098</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>BDEDBBA4-80B6-47A9-9BAA-7B855C00F787</string>
+		</dict>
 		<key>BF019FFB-4AEA-4F46-8C5B-93032582F267</key>
 		<dict>
 			<key>className</key>
@@ -2657,6 +4289,40 @@
 			<string>Build Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>C28E7C76-0853-41A0-B6FA-73E2CCB8333F</string>
+		</dict>
+		<key>C3867B81-8682-405D-A845-4A5B8E0AF4BE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C3867B81-8682-405D-A845-4A5B8E0AF4BE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656908426.59127903</real>
+			<key>timeStoppedRecording</key>
+			<real>656908428.92236102</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>C3867B81-8682-405D-A845-4A5B8E0AF4BE</string>
 		</dict>
 		<key>C792A9B8-7F97-4A5A-A300-7EA342C58686</key>
 		<dict>
@@ -2726,6 +4392,74 @@
 			<key>uniqueIdentifier</key>
 			<string>C867E770-1597-4640-B7DE-046E22A754C9</string>
 		</dict>
+		<key>CAEAA5B1-3168-4E98-82C1-3A1FFC263694</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CAEAA5B1-3168-4E98-82C1-3A1FFC263694.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656920679.35791898</real>
+			<key>timeStoppedRecording</key>
+			<real>656920681.45539701</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>CAEAA5B1-3168-4E98-82C1-3A1FFC263694</string>
+		</dict>
+		<key>CAF879BE-31E6-4F2F-B36C-0E863257213F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CAF879BE-31E6-4F2F-B36C-0E863257213F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656924960.69848895</real>
+			<key>timeStoppedRecording</key>
+			<real>656924966.09047997</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>CAF879BE-31E6-4F2F-B36C-0E863257213F</string>
+		</dict>
 		<key>CDB5381C-8F64-402B-AE63-A695A6C7FFC8</key>
 		<dict>
 			<key>className</key>
@@ -2760,6 +4494,40 @@
 			<key>uniqueIdentifier</key>
 			<string>CDB5381C-8F64-402B-AE63-A695A6C7FFC8</string>
 		</dict>
+		<key>CE5FCC47-3385-457C-890F-765EF68CE650</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CE5FCC47-3385-457C-890F-765EF68CE650.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656923823.71122301</real>
+			<key>timeStoppedRecording</key>
+			<real>656923826.91573203</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>CE5FCC47-3385-457C-890F-765EF68CE650</string>
+		</dict>
 		<key>CF32CA42-4477-4244-A3E5-CEF6FE8B841D</key>
 		<dict>
 			<key>className</key>
@@ -2793,6 +4561,40 @@
 			<string>Build Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>CF32CA42-4477-4244-A3E5-CEF6FE8B841D</string>
+		</dict>
+		<key>CFF764E2-0033-4F3D-9893-21201C9084E5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CFF764E2-0033-4F3D-9893-21201C9084E5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656870836.82082105</real>
+			<key>timeStoppedRecording</key>
+			<real>656870836.92709506</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>CFF764E2-0033-4F3D-9893-21201C9084E5</string>
 		</dict>
 		<key>D1462526-7A28-408A-A3DA-53CFA976537F</key>
 		<dict>
@@ -2930,6 +4732,40 @@
 			<key>uniqueIdentifier</key>
 			<string>D7ED3517-B4FC-489D-83AB-852552430FDE</string>
 		</dict>
+		<key>D87BE857-2530-42A0-A85D-A0D573609820</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D87BE857-2530-42A0-A85D-A0D573609820.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656924378.06826997</real>
+			<key>timeStoppedRecording</key>
+			<real>656924379.85508394</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>D87BE857-2530-42A0-A85D-A0D573609820</string>
+		</dict>
 		<key>DA0B900F-84CF-4ABE-ADB3-0CDA6B899CF4</key>
 		<dict>
 			<key>className</key>
@@ -2964,6 +4800,40 @@
 			<key>uniqueIdentifier</key>
 			<string>DA0B900F-84CF-4ABE-ADB3-0CDA6B899CF4</string>
 		</dict>
+		<key>DB4AF8F3-771A-4100-BBC5-7A8CD5DC1B5A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DB4AF8F3-771A-4100-BBC5-7A8CD5DC1B5A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656915319.07613695</real>
+			<key>timeStoppedRecording</key>
+			<real>656915321.43671405</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>DB4AF8F3-771A-4100-BBC5-7A8CD5DC1B5A</string>
+		</dict>
 		<key>DB5CBFC2-9C54-4E5E-8504-3914AA54CC79</key>
 		<dict>
 			<key>className</key>
@@ -2997,6 +4867,40 @@
 			<string>Build Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>DB5CBFC2-9C54-4E5E-8504-3914AA54CC79</string>
+		</dict>
+		<key>DBF432F4-8202-4F52-BFC2-9DDB2D04636E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DBF432F4-8202-4F52-BFC2-9DDB2D04636E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656908474.28568697</real>
+			<key>timeStoppedRecording</key>
+			<real>656908476.68216503</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>DBF432F4-8202-4F52-BFC2-9DDB2D04636E</string>
 		</dict>
 		<key>DD3C62F8-0219-4364-A607-4A30F0510013</key>
 		<dict>
@@ -3065,6 +4969,40 @@
 			<string>Build Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>E21C4308-322B-4529-88A6-4744EDA6D397</string>
+		</dict>
+		<key>E41F7531-A97D-4DE1-BABF-52748F4FE4BB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E41F7531-A97D-4DE1-BABF-52748F4FE4BB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656914685.19112206</real>
+			<key>timeStoppedRecording</key>
+			<real>656914688.064031</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>E41F7531-A97D-4DE1-BABF-52748F4FE4BB</string>
 		</dict>
 		<key>E4786D8E-E29E-41D7-91CC-94BAF172BFB9</key>
 		<dict>
@@ -3270,6 +5208,40 @@
 			<key>uniqueIdentifier</key>
 			<string>EC2C0A33-7937-4B58-8BFB-847BB98BCF57</string>
 		</dict>
+		<key>EDDCD9A4-AF94-4681-9414-090995C07FF2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EDDCD9A4-AF94-4681-9414-090995C07FF2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656909593.94541299</real>
+			<key>timeStoppedRecording</key>
+			<real>656909596.00470197</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>EDDCD9A4-AF94-4681-9414-090995C07FF2</string>
+		</dict>
 		<key>EE654958-6492-4A8D-9439-D11D1290C497</key>
 		<dict>
 			<key>className</key>
@@ -3406,6 +5378,108 @@
 			<key>uniqueIdentifier</key>
 			<string>F2DA9AFE-941E-4704-BD3A-11A6AD92D3BB</string>
 		</dict>
+		<key>F2EA3805-AE9C-404E-B5A8-B48E4261C98F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F2EA3805-AE9C-404E-B5A8-B48E4261C98F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656920200.01924706</real>
+			<key>timeStoppedRecording</key>
+			<real>656920201.77534997</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>F2EA3805-AE9C-404E-B5A8-B48E4261C98F</string>
+		</dict>
+		<key>F3A97D02-9588-4171-9A41-48683CB3D677</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F3A97D02-9588-4171-9A41-48683CB3D677.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656915735.85221195</real>
+			<key>timeStoppedRecording</key>
+			<real>656915738.92349398</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>F3A97D02-9588-4171-9A41-48683CB3D677</string>
+		</dict>
+		<key>F6FC979D-D2F1-42BB-9F6A-5924B469E294</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F6FC979D-D2F1-42BB-9F6A-5924B469E294.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656924020.06320596</real>
+			<key>timeStoppedRecording</key>
+			<real>656924021.98813796</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>F6FC979D-D2F1-42BB-9F6A-5924B469E294</string>
+		</dict>
 		<key>F99C9398-C44C-4352-9497-5DAEA5644193</key>
 		<dict>
 			<key>className</key>
@@ -3439,6 +5513,74 @@
 			<string>Build Contacts</string>
 			<key>uniqueIdentifier</key>
 			<string>F99C9398-C44C-4352-9497-5DAEA5644193</string>
+		</dict>
+		<key>FCABBF21-8B65-47A7-AF30-723727C2A52C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FCABBF21-8B65-47A7-AF30-723727C2A52C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656870957.39542198</real>
+			<key>timeStoppedRecording</key>
+			<real>656870959.26583099</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>FCABBF21-8B65-47A7-AF30-723727C2A52C</string>
+		</dict>
+		<key>FE9A10E6-8F4E-4032-8B9D-E0A9D5792F00</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FE9A10E6-8F4E-4032-8B9D-E0A9D5792F00.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>656924246.12708294</real>
+			<key>timeStoppedRecording</key>
+			<real>656924248.91116595</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>FE9A10E6-8F4E-4032-8B9D-E0A9D5792F00</string>
 		</dict>
 		<key>FED0EF45-464A-4269-96C4-6F5EB0D10C12</key>
 		<dict>
