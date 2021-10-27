@@ -1,7 +1,7 @@
-version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+version: "Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)"
 options: "a6cecef5a6ed667d1fad877a54cdc510e52b751cee87173da0877fd64ec60b17"
-build_start_time: [1635146640, 923338890]
-build_end_time: [1635146664, 159273147]
+build_start_time: [1635337086, 110542058]
+build_end_time: [1635337093, 40410041]
 inputs:
   "/Users/songweichuah/Desktop/Contacts/Pods/Kingfisher/Sources/Cache/CacheSerializer.swift": [1635139300, 181081295]
   "/Users/songweichuah/Desktop/Contacts/Pods/Kingfisher/Sources/Cache/DiskStorage.swift": [1635139300, 180343151]

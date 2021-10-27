@@ -1,7 +1,7 @@
-version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+version: "Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)"
 options: "fa176ae26597a429326ae46122df1d5c23ade041360a794088ff9d9b72bd6af1"
-build_start_time: [1635146777, 159790992]
-build_end_time: [1635146782, 626832962]
+build_start_time: [1635337062, 374820947]
+build_end_time: [1635337063, 239711046]
 inputs:
   "/Users/songweichuah/Desktop/Contacts/Pods/SnapKit/Source/Constraint.swift": [1635139300, 329282045]
   "/Users/songweichuah/Desktop/Contacts/Pods/SnapKit/Source/ConstraintAttributes.swift": [1635139300, 318782329]

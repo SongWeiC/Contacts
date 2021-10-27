@@ -33,4 +33,27 @@ struct WebServiceHelper {
         task.resume()
         return task
     }
+    
+    @discardableResult public static func putAPI(apiURL: URL, body: [String: String], completion: @escaping WebServiceCompletionBlock) -> URLSessionDataTask? {
+        var request = URLRequest(url: apiURL)
+        request.httpMethod = "PUT"
+        
+        guard let httpBody = try? JSONSerialization.data(withJSONObject: body) else {
+            return nil
+        }
+        request.httpBody = httpBody
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            guard let data = data, error == nil else {
+                completion(.failure(error ?? NetworkError.unknown))
+                return
+            }
+            
+            if let httpStatus = response as? HTTPURLResponse, ![200, 201].contains(httpStatus.statusCode) {
+                completion(.failure(NetworkError.invalidResponse))
+            }
+            completion(.success(data))
+        }
+        task.resume()
+        return task
+    }
 }

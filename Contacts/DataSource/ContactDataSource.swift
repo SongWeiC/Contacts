@@ -14,22 +14,31 @@ protocol ContactDataSourceType {
     func getMoreContactList(completion: @escaping (Int?, Int?, Error?) -> ())
     func setSelectedContact(index: Int)
     func getSelectedContact() -> ContactViewModel
+    func updateSelectedContact(firstName: String, lastName: String) -> Promise<Bool>
 }
 
 class ContactDataSource: ContactDataSourceType {
     var contactList = [ContactViewModel]()
     var dataProviderService: DataProviderServiceType!
     var pageNumber = 1
-    private var totalContactCount = 0
+    private var totalContactCount = 0 {
+        didSet {
+            if totalContactCount >= contactList.count {
+                shouldRetrieveFromBackend = false
+            }
+        }
+    }
     var selectedContact: ContactViewModel!
+    private var shouldRetrieveFromBackend = true
     
-    init() {
-        self.dataProviderService = DataProviderService()
+    init(dataProviderService: DataProviderServiceType) {
+        self.dataProviderService = dataProviderService
     }
     
+    ///When we retrieve contact list for new session
     func getContactList() -> Promise<[ContactViewModel]> {
         return Promise { seal in
-            dataProviderService.getContactList(pageNum: 1).done { contactList in
+            dataProviderService.getInitialContactList().done { contactList in
                 self.totalContactCount = contactList.totalItem
                 self.contactList = contactList.list
                 seal.fulfill(self.contactList)
@@ -40,9 +49,9 @@ class ContactDataSource: ContactDataSourceType {
     }
     
     func getMoreContactList(completion: @escaping (Int?, Int?, Error?) -> ()) {
-        if !(totalContactCount >= contactList.count) {return}
+        if contactList.count >= totalContactCount {return}
         pageNumber += 1
-        dataProviderService.getContactList(pageNum: pageNumber).done { contactList in
+        dataProviderService.getSubsequentContactList(pageNum: pageNumber).done { contactList in
             let startIndex = self.contactList.count
             self.contactList.append(contentsOf: contactList.list)
             let endIndex = self.contactList.count
@@ -58,5 +67,22 @@ class ContactDataSource: ContactDataSourceType {
     
     func getSelectedContact() -> ContactViewModel {
         return self.selectedContact
+    }
+    
+    func updateSelectedContact(firstName: String, lastName: String) -> Promise<Bool> {
+        return Promise { seal in
+            let updatedContact = ContactViewModel(id: selectedContact.id, email: selectedContact.email, firstName: firstName, lastName: lastName, avatarUrlString: selectedContact.avatarUrlString)
+            selectedContact = updatedContact
+            for i in 0..<contactList.count {
+                if contactList[i].id == updatedContact.id {
+                    contactList[i] = updatedContact
+                }
+            }
+            
+            //Update backend, API call
+            dataProviderService.updateContact(contact: selectedContact).done { didUpdateContact in
+                seal.fulfill(didUpdateContact)
+            }
+        }
     }
 }

@@ -33,7 +33,19 @@ class HomeViewController: UIViewController {
         view.backgroundColor = .white
         setUpRightBarItem()
         setUpTableView()
-        loadUI()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        refreshUI()
+    }
+    
+    func refreshUI() {
+        dataSource.getContactList().done { [weak self] _ in
+            self?.tableView.reloadData()
+        }.catch { error in
+            //Error handling here
+        }
     }
     
     func setUpRightBarItem() {
@@ -42,14 +54,6 @@ class HomeViewController: UIViewController {
     
     @objc func userDidSelectAddButton() {
         print("addbutton tapped")
-    }
-    
-    func loadUI() {
-        dataSource.getContactList().done { [weak self] _ in
-            self?.tableView.reloadData()
-        }.catch { error in
-            //Error handling here
-        }
     }
     
     func loadMoreContact() {

@@ -12,6 +12,7 @@ class ContactDetailView: UIView {
     private let config: ContactViewModel
     private var avatarImage: UIImageView!
     private var nameLabel: UILabel!
+    private let dataSource: ContactDataSourceType
     
     fileprivate let stackView: UIStackView = {
         let stackView = UIStackView()
@@ -24,8 +25,10 @@ class ContactDetailView: UIView {
         return stackView
     }()
     
-    init(config: ContactViewModel) {
+    init(config: ContactViewModel, dataSource: ContactDataSourceType) {
         self.config = config
+        self.dataSource = dataSource
+        
         super.init(frame: .zero)
         customInit()
     }
@@ -105,4 +108,8 @@ class ContactDetailView: UIView {
         nameLabel.text = config.firstName + config.lastName
     }
     
+    func updateContactName() {
+        let newContact = dataSource.getSelectedContact()
+        nameLabel.text = newContact.firstName + newContact.lastName
+    }
 }

@@ -8,6 +8,11 @@
 import Foundation
 import UIKit
 
+protocol EditContactDetailViewDelegateType: AnyObject {
+    func userDidPressedCancel()
+    func userDidPressedDone()
+}
+
 class EditContactDetailView: UIView {
     private let config: ContactViewModel
     private var avatarImage: UIImageView!
@@ -15,10 +20,12 @@ class EditContactDetailView: UIView {
     private let lastNameTextField: CATextField
     private let contactIDTextField: CATextField
     private let rightbutton = UIButton()
+    private let dataSource: ContactDataSourceType
+    weak var delegate: EditContactDetailViewDelegateType?
     
-    init(config: ContactViewModel) {
+    init(config: ContactViewModel, dataSource: ContactDataSourceType) {
         self.config = config
-        
+        self.dataSource = dataSource
         
         firstNameTextField = CATextField(type: .name, config: CATextFieldConfig(initialValue: config.firstName, placeholderText: nil, titleText: "First Name"), textValidator: DisplayNameTextValidator(errorMessage: "Please enter valid name"))
         lastNameTextField = CATextField(type: .name, config: CATextFieldConfig(initialValue: config.lastName, placeholderText: nil, titleText: "Last Name"), textValidator: DisplayNameTextValidator(errorMessage: "Please enter valid name"))
@@ -86,10 +93,14 @@ class EditContactDetailView: UIView {
     
     @objc func userDidSelectCancelButton() {
 //        self.dismiss(animated: true, completion: nil)
+        delegate?.userDidPressedCancel()
+        print("cancel")
     }
     
     @objc func userDidSelectDoneButton() {
-        print("tap")
+        dataSource.updateSelectedContact(firstName: firstNameTextField.textField.text!, lastName: lastNameTextField.textField.text!).done { [weak self] _ in
+            self?.delegate?.userDidPressedDone()
+        }
 //        self.dismiss(animated: true, completion: nil)
     }
     
@@ -147,9 +158,9 @@ extension EditContactDetailView: CATextFieldDelegateType {
         } else if textInputView === lastNameTextField {
             lastName = lastNameTextField.textField.text ?? ""
         }
-        if firstName != "" && lastName != "" {
+//        if firstName != "" && lastName != "" {
             rightbutton.isEnabled = true
-        }
+//        }
     }
 
     func onTextInputViewFocused(_ textInputView: CATextField) {

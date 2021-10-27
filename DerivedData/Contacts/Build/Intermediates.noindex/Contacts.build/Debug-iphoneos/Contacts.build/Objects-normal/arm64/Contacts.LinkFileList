@@ -1,5 +1,7 @@
 /Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/WebServiceHelper.o
+/Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/EditContactDetailViewController.o
 /Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/ContactDetailViewController.o
+/Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/CABaseTextField.o
 /Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/ContactViewModel.o
 /Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/HomeUICoordinator.o
 /Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/NetworkServiceRequest.o
@@ -10,10 +12,18 @@
 /Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/AppDelegate.o
 /Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/DataProviderService.o
 /Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/HomeViewController.o
+/Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/EditContactDetailView.o
+/Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/CoreDataService.o
 /Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/SceneDelegate.o
 /Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/JSONResponseDecoder.o
+/Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/DetailsActionView.o
 /Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/ContactViewTile.o
 /Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/AppRegistry+HomeUICoordinator.o
 /Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/UICoordinatorType.o
 /Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/HomeTableViewCell.o
+/Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/ContactDetailView.o
+/Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/CATextField.o
 /Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/ContactDataSource.o
+/Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/Contact+CoreDataClass.o
+/Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/Contact+CoreDataProperties.o
+/Users/songweichuah/Desktop/Contacts/DerivedData/Contacts/Build/Intermediates.noindex/Contacts.build/Debug-iphoneos/Contacts.build/Objects-normal/arm64/Contacts+CoreDataModel.o

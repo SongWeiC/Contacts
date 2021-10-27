@@ -13,9 +13,13 @@ class AppRegistry {
     private(set) var rootUICoordinator: HomeUICoordinator?
     
     var contactListDataSource: ContactDataSourceType!
+    var dataProviderService: DataProviderServiceType!
+    var coreDataService: CoreDataServiceType!
     
     init(){
-        self.contactListDataSource = ContactDataSource()
+        self.coreDataService = CoreDataService()
+        self.dataProviderService = DataProviderService(coreDataService: coreDataService)
+        self.contactListDataSource = ContactDataSource(dataProviderService: dataProviderService)
     }
     
     func createAppRootViewController(window: UIWindow) {

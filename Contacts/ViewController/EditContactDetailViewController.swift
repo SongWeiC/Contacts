@@ -28,7 +28,8 @@ class EditContactDetailViewController: UIViewController {
     }
     
     func setUpDetailView() {
-        let detailView = EditContactDetailView(config: dataSource.getSelectedContact())
+        let detailView = EditContactDetailView(config: dataSource.getSelectedContact(), dataSource: dataSource)
+        detailView.delegate = self
         self.view.addSubview(detailView)
         detailView.snp.makeConstraints{ make in
             make.top.equalTo(view.safeAreaLayoutGuide.snp.top)
@@ -36,5 +37,19 @@ class EditContactDetailViewController: UIViewController {
         }
     }
     
+    deinit {
+        print("deinit")
+    }
+
+}
+
+extension EditContactDetailViewController: EditContactDetailViewDelegateType {
+    func userDidPressedCancel() {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    func userDidPressedDone() {
+        self.dismiss(animated: true, completion: nil)
+    }
 }
 

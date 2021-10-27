@@ -15,10 +15,15 @@ struct ContactListAPIModel: Decodable {
     let data: [ContactAPIModel]
 }
 
-struct ContactAPIModel: Decodable {
+struct ContactAPIModel: Codable {
     let id: Int
     let email: String
     let first_name: String
     let last_name: String
     let avatar: String
+}
+
+struct UpdateContactAPIModel: Decodable {
+    let first_name: String
+    let last_name: String
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8BCC452BE6A9DAFEBE6D5106 /* Pods_Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73E349C72EA33A0E9EB4446 /* Pods_Contacts.framework */; };
+		99D5640127284B06001E5CF4 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5640027284B06001E5CF4 /* CoreDataService.swift */; };
 		99F8C5C72725A23F0045B8A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F8C5C62725A23F0045B8A2 /* AppDelegate.swift */; };
 		99F8C5C92725A23F0045B8A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F8C5C82725A23F0045B8A2 /* SceneDelegate.swift */; };
 		99F8C5CE2725A23F0045B8A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F8C5CC2725A23F0045B8A2 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		60E1064F5D2FA7A11BA115F1 /* Pods-Contacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.release.xcconfig"; path = "Target Support Files/Pods-Contacts/Pods-Contacts.release.xcconfig"; sourceTree = "<group>"; };
 		789632E69BFD742460443D0D /* Pods-Contacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.debug.xcconfig"; path = "Target Support Files/Pods-Contacts/Pods-Contacts.debug.xcconfig"; sourceTree = "<group>"; };
+		99D5640027284B06001E5CF4 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
 		99F8C5C32725A23F0045B8A2 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F8C5C62725A23F0045B8A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99F8C5C82725A23F0045B8A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				99F8C60327267A110045B8A2 /* DataProviderService.swift */,
+				99D5640027284B06001E5CF4 /* CoreDataService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 				99F8C60427267A110045B8A2 /* DataProviderService.swift in Sources */,
 				99F8C5FB27266EA70045B8A2 /* HomeViewController.swift in Sources */,
 				99F8C61F2727A7610045B8A2 /* EditContactDetailView.swift in Sources */,
+				99D5640127284B06001E5CF4 /* CoreDataService.swift in Sources */,
 				99F8C5C92725A23F0045B8A2 /* SceneDelegate.swift in Sources */,
 				99F8C60B27267B3D0045B8A2 /* JSONResponseDecoder.swift in Sources */,
 				99F8C619272703E30045B8A2 /* DetailsActionView.swift in Sources */,

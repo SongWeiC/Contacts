@@ -15,6 +15,8 @@ protocol ContactDetailVCDelegateType: AnyObject {
 class ContactDetailViewController: UIViewController {
     private let dataSource: ContactDataSourceType
     weak var delegate: ContactDetailVCDelegateType?
+    private var detailView: ContactDetailView!
+    
     required init(dataSource: ContactDataSourceType) {
         self.dataSource = dataSource
         super.init(nibName: nil, bundle: nil)
@@ -30,6 +32,11 @@ class ContactDetailViewController: UIViewController {
         setUpDetailView()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        detailView.updateContactName()
+    }
+    
     func setUpRightBarItem() {
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Edit", style: .plain, target: self, action: #selector(userDidSelectEditButton))
     }
@@ -39,7 +46,7 @@ class ContactDetailViewController: UIViewController {
     }
     
     func setUpDetailView() {
-        let detailView = ContactDetailView(config: dataSource.getSelectedContact())
+        detailView = ContactDetailView(config: dataSource.getSelectedContact(), dataSource: dataSource)
         self.view.addSubview(detailView)
         detailView.snp.makeConstraints{ make in
             make.edges.equalToSuperview()

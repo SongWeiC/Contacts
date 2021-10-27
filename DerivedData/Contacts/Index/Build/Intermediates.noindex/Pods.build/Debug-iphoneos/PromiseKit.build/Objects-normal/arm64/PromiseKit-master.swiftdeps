@@ -1,7 +1,7 @@
-version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+version: "Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)"
 options: "ef0110d23d5bec368881feb1f6598f6e492c30d1733d6e6e7be937cadb37c3a7"
-build_start_time: [1635146777, 158867835]
-build_end_time: [1635146782, 578597068]
+build_start_time: [1635337062, 374981880]
+build_end_time: [1635337063, 284373044]
 inputs:
   "/Users/songweichuah/Desktop/Contacts/Pods/PromiseKit/Extensions/Foundation/Sources/NSNotificationCenter+Promise.swift": [1635139300, 263413429]
   "/Users/songweichuah/Desktop/Contacts/Pods/PromiseKit/Extensions/Foundation/Sources/NSObject+Promise.swift": [1635139300, 266634464]
