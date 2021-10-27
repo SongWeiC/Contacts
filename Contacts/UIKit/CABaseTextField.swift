@@ -35,15 +35,9 @@ class CABaseTextField: UITextField, CATextFieldType {
         spellCheckingType = .yes
         keyboardType = .alphabet
         returnKeyType = .default
-        
-//        textContentType = .empty
-
-        ///Initial setup
         textColor = .black
-//        placeHolderColor = .lightGray
         tintColor = .black
         layer.cornerRadius = 8
-//        addPadding(.both(24.0))
         setState(state: .normal)
     }
     
@@ -52,7 +46,7 @@ class CABaseTextField: UITextField, CATextFieldType {
         switch state {
         case .normal:
             textColor = .black
-            backgroundColor = .white
+            backgroundColor = .lightGray
             isEnabled = true
 
         case .locked:

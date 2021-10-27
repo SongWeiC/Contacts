@@ -23,4 +23,8 @@ extension AppRegistry: HomeUICoordinatorDependencyProviderType {
     func getEditContactDetailVC() -> EditContactDetailViewController {
         return EditContactDetailViewController(dataSource: contactListDataSource)
     }
+    
+    func getAddContactDetailVC() -> AddContactViewController {
+        return AddContactViewController(dataSource: contactListDataSource)
+    }
 }

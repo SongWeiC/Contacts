@@ -58,7 +58,7 @@ class ContactViewTile: UIView {
             make.centerY.equalToSuperview()
             make.left.equalTo(avatarImage.snp.right).offset(24)
         }
-        nameLabel.text = config.firstName + config.lastName
+        nameLabel.text = config.firstName + " " + config.lastName
     }
     
     private func setBackground() {

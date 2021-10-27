@@ -17,6 +17,11 @@ protocol CoreDataServiceType {
     func deleteContactIfNeeded()
 }
 
+///NOTE: This class is core data service class that basically
+///1. save data
+///2. retrieve data
+///3. update data
+///4. delete data
 class CoreDataService: CoreDataServiceType {
     let persistentContainer: NSPersistentContainer!
     

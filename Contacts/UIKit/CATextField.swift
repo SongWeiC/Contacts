@@ -21,6 +21,13 @@ protocol CATextFieldDelegateType: AnyObject {
     ///use this function for checking validation of the text
     func onTextInputViewTextChanged(_ textInputView: CATextField, isInputValid: Bool)
 }
+extension CATextFieldDelegateType {
+    func onTextInputViewFocused(_ textInputView: CATextField) {}
+
+    func onTextInputViewReturned(_ textInputView: CATextField) {}
+
+    func onTextInputViewDidEndEditing(_ textInputView: CATextField) {}
+}
 
 struct CATextFieldConfig {
     /// use this property to set initial value in the textField, e.g, email used in last login
@@ -31,6 +38,9 @@ struct CATextFieldConfig {
 
     /// use this property to set title above textFiedl
     var titleText: String?
+    
+    /// This error message will be shown(if set) when the user selects the textfield then navigates away from it without entering a text.
+    var emptyValueErrorMessage: String?
 
     static func defaultConfig() -> CATextFieldConfig {
         return CATextFieldConfig()
@@ -62,6 +72,7 @@ class CATextField: UIView {
     var errorMessage: String?
     weak var textFieldDelegate: CATextFieldDelegateType?
     var validator: TextValidatorType?
+    private var emptyValueErrorMessage: String?
     
     required init(type: CATextField.InputType = .name,
                   config: CATextFieldConfig = CATextFieldConfig.defaultConfig(), textValidator: TextValidatorType? = nil) {
@@ -83,6 +94,7 @@ class CATextField: UIView {
         initialValue = config.initialValue
         title = config.titleText
         placeholderText = config.placeholderText
+        emptyValueErrorMessage = config.emptyValueErrorMessage
     }
 
     required init?(coder: NSCoder) {
@@ -113,6 +125,7 @@ class CATextField: UIView {
         }
 
         verticalStack.addArrangedSubview(textField)
+        verticalStack.addArrangedSubview(errorLabel)
 
         textField.snp.makeConstraints { make in
             make.height.equalTo(64)
@@ -129,12 +142,8 @@ class CATextField: UIView {
         titleLabel.text = title
         textField.backgroundColor = .lightGray
         textField.placeholder = placeholderText
-
-//        titleLabel.font = styleGuide.fonts.primaryButton
         titleLabel.textColor = .black
 
-//        textField.font = styleGuide.fonts.body
-//        errorLabel.font = styleGuide.fonts.body
         errorLabel.textColor = .red
         errorLabel.numberOfLines = 0
         errorLabel.lineBreakMode = .byWordWrapping
@@ -154,15 +163,12 @@ class CATextField: UIView {
     @objc private func textFieldDidChange(_ textField: UITextField) {
         computeValidation()
         textFieldDelegate?.onTextInputViewTextChanged(self, isInputValid: isInputValid)
-//        if let textFormatter = formatter, let text = textField.text {
-//            textField.text = textFormatter.format(text: text)
-//        }
     }
     
     private func computeValidation() {
         if textField.text?.isEmpty == true {
             isInputValid = false
-            errorMessage = ""
+            errorMessage = emptyValueErrorMessage
         } else if let text = textField.text, let validator = validator {
 
             let validationResult = validator.validate(text: text)
@@ -181,13 +187,13 @@ class CATextField: UIView {
         }
     }
     
+    
     func updateUI() {
         guard inputIsDirty else {
             return
         }
-        ///update ui and colors on input change
+   
         if textField.isEditing {
-//            textField.setState(state: .highlighted)
             errorLabel.isHidden = true
         } else {
             computeValidation()
@@ -207,7 +213,6 @@ class CATextField: UIView {
 }
 
 extension CATextField: UITextFieldDelegate {
-
     func textFieldDidBeginEditing(_ textField: UITextField) {
         textFieldDelegate?.onTextInputViewFocused(self)
         inputIsDirty = true
@@ -228,26 +233,4 @@ extension CATextField: UITextFieldDelegate {
 }
 
 
-enum TextValidationResult {
-    case successful
-    case error(errorMessage: String)
-}
 
-protocol TextValidatorType {
-    func validate(text: String) -> TextValidationResult
-}
-
-class DisplayNameTextValidator: TextValidatorType {
-
-    private var errorMessage: String
-    init(errorMessage: String) {
-        self.errorMessage = errorMessage
-    }
-
-    func validate(text: String) -> TextValidationResult {
-        let regex = "^(?![0-9]+$)[0-9A-Za-z ]{1,128}$"
-        let checkRegex = NSPredicate(format: "SELF MATCHES %@", regex)
-        let result = checkRegex.evaluate(with: text)
-        return result ? .successful : .error(errorMessage: errorMessage)
-    }
-}

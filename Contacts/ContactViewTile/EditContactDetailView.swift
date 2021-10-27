@@ -22,13 +22,15 @@ class EditContactDetailView: UIView {
     private let rightbutton = UIButton()
     private let dataSource: ContactDataSourceType
     weak var delegate: EditContactDetailViewDelegateType?
+    private var isFirstNameValid = true
+    private var isLastNameValid = true
     
     init(config: ContactViewModel, dataSource: ContactDataSourceType) {
         self.config = config
         self.dataSource = dataSource
         
-        firstNameTextField = CATextField(type: .name, config: CATextFieldConfig(initialValue: config.firstName, placeholderText: nil, titleText: "First Name"), textValidator: DisplayNameTextValidator(errorMessage: "Please enter valid name"))
-        lastNameTextField = CATextField(type: .name, config: CATextFieldConfig(initialValue: config.lastName, placeholderText: nil, titleText: "Last Name"), textValidator: DisplayNameTextValidator(errorMessage: "Please enter valid name"))
+        firstNameTextField = CATextField(type: .name, config: CATextFieldConfig(initialValue: config.firstName, placeholderText: "Please enter first name", titleText: "First Name",  emptyValueErrorMessage: "Please enter first name"), textValidator: DisplayNameTextValidator(errorMessage: "Please enter valid name"))
+        lastNameTextField = CATextField(type: .name, config: CATextFieldConfig(initialValue: config.lastName, placeholderText: "Please enter last name", titleText: "Last Name", emptyValueErrorMessage: "Please enter last name"), textValidator: DisplayNameTextValidator(errorMessage: "Please enter valid name"))
         contactIDTextField = CATextField(type: .name, config: CATextFieldConfig(initialValue: "\(config.id)", placeholderText: nil, titleText: "Contact ID"), textValidator: nil)
         super.init(frame: .zero)
         customInit()
@@ -69,6 +71,7 @@ class EditContactDetailView: UIView {
         
         rightbutton.setTitle("Done", for: .normal)
         rightbutton.setTitleColor(.black, for: .normal)
+        rightbutton.setTitleColor(.lightGray, for: .disabled)
         rightbutton.addTarget(self, action: #selector(userDidSelectDoneButton), for: .touchUpInside)
         let rightButton = UIBarButtonItem(customView: rightbutton)
         navigationBar.items?.first?.rightBarButtonItem = rightButton
@@ -144,34 +147,25 @@ class EditContactDetailView: UIView {
         avatarImage.clipsToBounds = true
    
         if let url = URL(string: config.avatarUrlString) {
-            avatarImage.kf.setImage(with: url)
+            avatarImage.kf.setImage(with: url,placeholder: UIImage(named: "defaultAvatar"))
+        } else {
+            avatarImage.image = UIImage(named: "defaultAvatar")
         }
     }
-    var firstName = ""
-    var lastName = ""
+    
 }
 
 extension EditContactDetailView: CATextFieldDelegateType {
     func onTextInputViewTextChanged(_ textInputView: CATextField, isInputValid: Bool) {
         if textInputView === firstNameTextField {
-            firstName = firstNameTextField.textField.text ?? ""
+            isFirstNameValid = isInputValid
         } else if textInputView === lastNameTextField {
-            lastName = lastNameTextField.textField.text ?? ""
+            isLastNameValid = isInputValid
         }
-//        if firstName != "" && lastName != "" {
+        if isFirstNameValid && isLastNameValid {
             rightbutton.isEnabled = true
-//        }
-    }
-
-    func onTextInputViewFocused(_ textInputView: CATextField) {
-        
-    }
-    
-    func onTextInputViewReturned(_ textInputView: CATextField) {
-        
-    }
-    
-    func onTextInputViewDidEndEditing(_ textInputView: CATextField) {
-        
+        } else {
+            rightbutton.isEnabled = false
+        }
     }
 }

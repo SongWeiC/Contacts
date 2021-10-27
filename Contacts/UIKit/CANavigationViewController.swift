@@ -51,5 +51,4 @@ final class CANavigationViewController: UIViewController {
 }
 
 extension CANavigationViewController: UINavigationControllerDelegate {
-    
 }

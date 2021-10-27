@@ -96,7 +96,9 @@ class ContactDetailView: UIView {
         avatarImage.clipsToBounds = true
    
         if let url = URL(string: config.avatarUrlString) {
-            avatarImage.kf.setImage(with: url)
+            avatarImage.kf.setImage(with: url,placeholder: UIImage(named: "defaultAvatar"))
+        } else {
+            avatarImage.image = UIImage(named: "defaultAvatar")
         }
         
         nameLabel = UILabel()

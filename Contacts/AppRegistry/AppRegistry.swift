@@ -25,7 +25,6 @@ class AppRegistry {
     func createAppRootViewController(window: UIWindow) {
         self.window = window
         self.window!.rootViewController = createHomeUICoordinator().rootVC
-        print("as")
     }
     
     func createHomeUICoordinator() -> HomeUICoordinator {

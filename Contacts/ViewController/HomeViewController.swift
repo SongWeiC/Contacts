@@ -11,6 +11,7 @@ import SnapKit
 
 protocol HomeViewControllerDelegateType: AnyObject {
     func showContactDetail()
+    func showAddContact()
 }
 
 class HomeViewController: UIViewController {
@@ -54,6 +55,7 @@ class HomeViewController: UIViewController {
     
     @objc func userDidSelectAddButton() {
         print("addbutton tapped")
+        self.delegate?.showAddContact()
     }
     
     func loadMoreContact() {

@@ -209,6 +209,28 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class NSCoder;
+
+SWIFT_CLASS("_TtC8Contacts20AddContactDetailView")
+@interface AddContactDetailView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)userDidSelectCancelButton;
+- (void)userDidSelectDoneButton;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+@class NSString;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC8Contacts24AddContactViewController")
+@interface AddContactViewController : UIViewController
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
 @class UIWindow;
 @class UIApplication;
 @class NSNumber;
@@ -220,7 +242,6 @@ SWIFT_CLASS("_TtC8Contacts11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSCoder;
 
 SWIFT_CLASS("_TtC8Contacts15CABaseTextField")
 @interface CABaseTextField : UITextField
@@ -231,8 +252,6 @@ SWIFT_CLASS("_TtC8Contacts15CABaseTextField")
 - (CGRect)editingRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class NSString;
-@class NSBundle;
 
 SWIFT_CLASS("_TtC8Contacts26CANavigationViewController")
 @interface CANavigationViewController : UIViewController

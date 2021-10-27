@@ -15,7 +15,6 @@ protocol NetworkServiceRequestType {
     func updateContact(contact: ContactAPIModel, completion: @escaping UpdateResponse) -> URLSessionDataTask?
 }
 
-
 struct NetworkServiceRequest: NetworkServiceRequestType {
     @discardableResult func updateContact(contact: ContactAPIModel, completion: @escaping UpdateResponse) -> URLSessionDataTask? {
         var apiURLString = "https://reqres.in/api/users/{{id}}"

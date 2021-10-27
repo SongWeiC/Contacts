@@ -12,11 +12,14 @@ protocol DataProviderServiceType {
     func getInitialContactList() -> Promise<ContactListViewModel>
     func getSubsequentContactList(pageNum: Int) -> Promise<ContactListViewModel>
     func updateContact(contact: ContactViewModel) -> Promise<Bool>
+    func addNewContact(contact: ContactViewModel)
     func clearLocalContactList()
 }
 
-///DataProviderService class is an adapter class that link to network layer AND core data layer class
-///This class's responsibility is managing retrieving data from local or from API as well as updating
+///NOTE:DataProviderService class is an adapter class that
+/// 1. network layer
+/// 2. core data layer
+///This class's responsibility is managing  data should come from CoreData or API
 class DataProviderService: DataProviderServiceType {
     var coreDataService: CoreDataServiceType!
     
@@ -60,19 +63,22 @@ class DataProviderService: DataProviderServiceType {
     
     private func getContactListFromAPI(pageNum: Int) -> Promise<ContactListViewModel> {
         return Promise { seal in
-            NetworkServiceRequest().getContactList(pageNum: pageNum) {[weak self] apiResult in
-                switch apiResult {
-                case .success(let contactAPIModel):
-                    
-                    var contactList = [ContactViewModel]()
-                    contactList = contactAPIModel.data.map { contact in
-                        ContactViewModel(id: contact.id, email: contact.email, firstName: contact.first_name, lastName: contact.last_name, avatarUrlString: contact.avatar)
+            
+            DispatchQueue.global().async {
+                NetworkServiceRequest().getContactList(pageNum: pageNum) {[weak self] apiResult in
+                    switch apiResult {
+                    case .success(let contactAPIModel):
+                        
+                        var contactList = [ContactViewModel]()
+                        contactList = contactAPIModel.data.map { contact in
+                            ContactViewModel(id: contact.id, email: contact.email, firstName: contact.first_name, lastName: contact.last_name, avatarUrlString: contact.avatar)
+                        }
+                        self?.coreDataService.addContactList(list: contactList)
+                        seal.fulfill(ContactListViewModel(totalItem: contactAPIModel.total, list: contactList))
+                        
+                    case .failure(let error):
+                        seal.reject(error)
                     }
-                    self?.coreDataService.addContactList(list: contactList)
-                    seal.fulfill(ContactListViewModel(totalItem: contactAPIModel.total, list: contactList))
-                    
-                case .failure(let error):
-                    seal.reject(error)
                 }
             }
         }
@@ -80,18 +86,24 @@ class DataProviderService: DataProviderServiceType {
     
     func updateContact(contact: ContactViewModel) -> Promise<Bool> {
         return Promise { seal in
-            let _contact = ContactAPIModel(id: contact.id, email: contact.email, first_name: contact.firstName, last_name: contact.lastName, avatar: contact.avatarUrlString)
-            NetworkServiceRequest().updateContact(contact: _contact) { apiResult in
-                switch apiResult {
-                case .success( _):
-                    seal.fulfill(true)
-                    
-                case .failure( _):
-                    seal.fulfill(false)
+            DispatchQueue.global().async {
+                let _contact = ContactAPIModel(id: contact.id, email: contact.email, first_name: contact.firstName, last_name: contact.lastName, avatar: contact.avatarUrlString)
+                NetworkServiceRequest().updateContact(contact: _contact) { apiResult in
+                    switch apiResult {
+                    case .success( _):
+                        seal.fulfill(true)
+                        
+                    case .failure( _):
+                        seal.fulfill(false)
+                    }
                 }
             }
             coreDataService.updateContact(_contact: contact)
         }
+    }
+    
+    func addNewContact(contact: ContactViewModel) {
+        coreDataService.addContactList(list: [contact])
     }
 }
 

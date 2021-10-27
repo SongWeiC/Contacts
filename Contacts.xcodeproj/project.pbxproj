@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8BCC452BE6A9DAFEBE6D5106 /* Pods_Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73E349C72EA33A0E9EB4446 /* Pods_Contacts.framework */; };
+		991D3CA727299F08003D67FC /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991D3CA627299F08003D67FC /* AddContactViewController.swift */; };
+		991D3CA92729A435003D67FC /* AddContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991D3CA82729A435003D67FC /* AddContactDetailView.swift */; };
+		991D3CAB2729ACB2003D67FC /* EmailTextValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991D3CAA2729ACB2003D67FC /* EmailTextValidator.swift */; };
 		99D5640127284B06001E5CF4 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5640027284B06001E5CF4 /* CoreDataService.swift */; };
 		99F8C5C72725A23F0045B8A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F8C5C62725A23F0045B8A2 /* AppDelegate.swift */; };
 		99F8C5C92725A23F0045B8A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F8C5C82725A23F0045B8A2 /* SceneDelegate.swift */; };
@@ -43,6 +46,9 @@
 /* Begin PBXFileReference section */
 		60E1064F5D2FA7A11BA115F1 /* Pods-Contacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.release.xcconfig"; path = "Target Support Files/Pods-Contacts/Pods-Contacts.release.xcconfig"; sourceTree = "<group>"; };
 		789632E69BFD742460443D0D /* Pods-Contacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.debug.xcconfig"; path = "Target Support Files/Pods-Contacts/Pods-Contacts.debug.xcconfig"; sourceTree = "<group>"; };
+		991D3CA627299F08003D67FC /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		991D3CA82729A435003D67FC /* AddContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactDetailView.swift; sourceTree = "<group>"; };
+		991D3CAA2729ACB2003D67FC /* EmailTextValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextValidator.swift; sourceTree = "<group>"; };
 		99D5640027284B06001E5CF4 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
 		99F8C5C32725A23F0045B8A2 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F8C5C62725A23F0045B8A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -166,6 +172,7 @@
 				99F8C6162726CB640045B8A2 /* CAViewController.swift */,
 				99F8C6202727A9490045B8A2 /* CATextField.swift */,
 				99F8C6222727ABF30045B8A2 /* CABaseTextField.swift */,
+				991D3CAA2729ACB2003D67FC /* EmailTextValidator.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -176,6 +183,7 @@
 				99F8C5FA27266EA60045B8A2 /* HomeViewController.swift */,
 				99F8C6142726C0DD0045B8A2 /* ContactDetailViewController.swift */,
 				99F8C61C27270D090045B8A2 /* EditContactDetailViewController.swift */,
+				991D3CA627299F08003D67FC /* AddContactViewController.swift */,
 				99F8C60F272685570045B8A2 /* HomeTableViewCell.swift */,
 			);
 			path = ViewController;
@@ -231,6 +239,7 @@
 				99F8C618272703E30045B8A2 /* DetailsActionView.swift */,
 				99F8C61A27270AB70045B8A2 /* ContactDetailView.swift */,
 				99F8C61E2727A7610045B8A2 /* EditContactDetailView.swift */,
+				991D3CA82729A435003D67FC /* AddContactDetailView.swift */,
 			);
 			path = ContactViewTile;
 			sourceTree = "<group>";
@@ -360,6 +369,7 @@
 			files = (
 				99F8C60927267B090045B8A2 /* WebServiceHelper.swift in Sources */,
 				99F8C61D27270D090045B8A2 /* EditContactDetailViewController.swift in Sources */,
+				991D3CA92729A435003D67FC /* AddContactDetailView.swift in Sources */,
 				99F8C5D12725A23F0045B8A2 /* Contacts.xcdatamodeld in Sources */,
 				99F8C6152726C0DD0045B8A2 /* ContactDetailViewController.swift in Sources */,
 				99F8C6232727ABF30045B8A2 /* CABaseTextField.swift in Sources */,
@@ -367,9 +377,11 @@
 				99F8C5E22725A74B0045B8A2 /* HomeUICoordinator.swift in Sources */,
 				99F8C60727267ABB0045B8A2 /* NetworkServiceRequest.swift in Sources */,
 				99F8C5F6272660DF0045B8A2 /* CANavigationViewController.swift in Sources */,
+				991D3CA727299F08003D67FC /* AddContactViewController.swift in Sources */,
 				99F8C5DF2725A6140045B8A2 /* AppRegistry.swift in Sources */,
 				99F8C6172726CB640045B8A2 /* CAViewController.swift in Sources */,
 				99F8C60E27267B850045B8A2 /* ContactListAPIModel.swift in Sources */,
+				991D3CAB2729ACB2003D67FC /* EmailTextValidator.swift in Sources */,
 				99F8C5C72725A23F0045B8A2 /* AppDelegate.swift in Sources */,
 				99F8C60427267A110045B8A2 /* DataProviderService.swift in Sources */,
 				99F8C5FB27266EA70045B8A2 /* HomeViewController.swift in Sources */,

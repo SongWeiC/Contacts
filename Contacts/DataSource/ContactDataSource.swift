@@ -8,6 +8,10 @@
 import Foundation
 import PromiseKit
 
+///NOTE: This class is the viewModel that prepare view data
+///1. Hold actual data
+///2. Polish data for UI friendly
+///3. Adapter class to data provider class
 protocol ContactDataSourceType {
     var contactList: [ContactViewModel] {get set}
     func getContactList() -> Promise<[ContactViewModel]>
@@ -15,6 +19,7 @@ protocol ContactDataSourceType {
     func setSelectedContact(index: Int)
     func getSelectedContact() -> ContactViewModel
     func updateSelectedContact(firstName: String, lastName: String) -> Promise<Bool>
+    func addNewContact(firstName: String, lastName: String, email: String)
 }
 
 class ContactDataSource: ContactDataSourceType {
@@ -41,6 +46,7 @@ class ContactDataSource: ContactDataSourceType {
             dataProviderService.getInitialContactList().done { contactList in
                 self.totalContactCount = contactList.totalItem
                 self.contactList = contactList.list
+                self.contactList.sort { $0.id < $1.id }
                 seal.fulfill(self.contactList)
             } .catch { error in
                 seal.reject(error)
@@ -84,5 +90,14 @@ class ContactDataSource: ContactDataSourceType {
                 seal.fulfill(didUpdateContact)
             }
         }
+    }
+    
+    func addNewContact(firstName: String, lastName: String, email: String) {
+        let newContact = newContactStub(firstName: firstName, lastName: lastName,email: email)
+        dataProviderService.addNewContact(contact: newContact)
+    }
+    
+    func newContactStub(firstName: String, lastName: String,email: String) -> ContactViewModel {
+        return ContactViewModel(id: contactList.count+1, email: email, firstName: firstName, lastName: lastName, avatarUrlString: "")
     }
 }

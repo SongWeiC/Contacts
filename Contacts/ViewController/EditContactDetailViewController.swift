@@ -23,7 +23,6 @@ class EditContactDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         view.backgroundColor = .white
-//        setUpNavBar()
         setUpDetailView()
     }
     
@@ -38,7 +37,7 @@ class EditContactDetailViewController: UIViewController {
     }
     
     deinit {
-        print("deinit")
+        print("EditContactVC - deinit")
     }
 
 }

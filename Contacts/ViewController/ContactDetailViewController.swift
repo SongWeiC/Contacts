@@ -52,5 +52,9 @@ class ContactDetailViewController: UIViewController {
             make.edges.equalToSuperview()
         }
     }
+    
+    deinit {
+        print("ContactDetailVC - deinit")
+    }
 }
 
