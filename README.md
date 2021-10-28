@@ -10,7 +10,9 @@ and using cocoapods as dependency for 3 external libaries
 
 
 ##############################################
-here are some high level of the structure and layer of the app.
+
+
+Here are some high level of the structure and layer of the app.
 
 1. Contacts application uses coordinator design pattern
     - so navigate from home page, to details page, edit/add contact page, is managed by UICoordinator class.
