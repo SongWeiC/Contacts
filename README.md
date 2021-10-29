@@ -30,11 +30,11 @@ Here are some high level of the structure and layer of the app.
 
 So basically in ViewModel point of view, from top down
 
-					ContactDataSource 
+				          ContactDataSource 
 						|
 					 DataProviderService
 						|
-				CoreDataService AND NetworkService
+			       CoreDataService AND NetworkService
         
 Thank you for reading =)
 Song Wei
