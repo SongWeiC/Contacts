@@ -14,6 +14,7 @@ import PromiseKit
 ///3. Adapter class to data provider class
 protocol ContactDataSourceType {
     var contactList: [ContactViewModel] {get set}
+    var viewModelToViewBinding: (() -> ())? { get set }
     func getContactList() -> Promise<[ContactViewModel]>
     func getMoreContactList(completion: @escaping (Int?, Int?, Error?) -> ())
     func setSelectedContact(index: Int)
@@ -23,7 +24,13 @@ protocol ContactDataSourceType {
 }
 
 class ContactDataSource: ContactDataSourceType {
-    var contactList = [ContactViewModel]()
+    var viewModelToViewBinding: (() -> ())?
+    
+    var contactList = [ContactViewModel]() {
+        didSet {
+            self.viewModelToViewBinding?()
+        }
+    }
     var dataProviderService: DataProviderServiceType!
     var pageNumber = 1
     private var totalContactCount = 0 {
@@ -95,6 +102,7 @@ class ContactDataSource: ContactDataSourceType {
     func addNewContact(firstName: String, lastName: String, email: String) {
         let newContact = newContactStub(firstName: firstName, lastName: lastName,email: email)
         dataProviderService.addNewContact(contact: newContact)
+        contactList.append(newContact)
     }
     
     func newContactStub(firstName: String, lastName: String,email: String) -> ContactViewModel {

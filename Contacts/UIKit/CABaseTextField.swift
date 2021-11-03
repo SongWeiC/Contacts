@@ -10,6 +10,7 @@ import UIKit
 
 protocol CATextFieldType: UITextField {
     func setState(state: CATextFieldState)
+    func bind(callback: ((String) -> ())?)
 }
 
 enum CATextFieldState {
@@ -19,7 +20,18 @@ enum CATextFieldState {
 }
 
 class CABaseTextField: UITextField, CATextFieldType {
+    var textChange: ((String) -> ())?
+    
+    func bind(callback: ((String) -> ())?) {
+        self.textChange = callback
+    }
 
+    @objc func textFieldChange(_ textField: UITextField) {
+        if let text = textField.text {
+             self.textChange?(text)
+        }
+    }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         setup()
@@ -30,6 +42,7 @@ class CABaseTextField: UITextField, CATextFieldType {
     }
 
     func setup() {
+        self.addTarget(self, action: #selector(textFieldChange), for: .editingChanged)
         autocapitalizationType = .sentences
         autocorrectionType = .yes
         spellCheckingType = .yes

@@ -8,10 +8,6 @@
 import Foundation
 import UIKit
 
-class test: UINavigationController {
-    
-}
-
 final class CANavigationViewController: UIViewController {
     private var baseNavigationController: UINavigationController!
     

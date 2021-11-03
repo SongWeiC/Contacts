@@ -15,7 +15,7 @@ protocol HomeViewControllerDelegateType: AnyObject {
 }
 
 class HomeViewController: UIViewController {
-    private let dataSource: ContactDataSourceType
+    private var dataSource: ContactDataSourceType
     private var tableView = UITableView()
     var delegate: HomeViewControllerDelegateType?
     
@@ -34,13 +34,18 @@ class HomeViewController: UIViewController {
         view.backgroundColor = .white
         setUpRightBarItem()
         setUpTableView()
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+        dataSource.viewModelToViewBinding = {
+            self.tableView.reloadData()
+        }
         refreshUI()
     }
     
+//    override func viewWillAppear(_ animated: Bool) {
+//        super.viewWillAppear(animated)
+//        refreshUI()
+//    }
+    
+    //ViewModel to View binding
     func refreshUI() {
         dataSource.getContactList().done { [weak self] _ in
             self?.tableView.reloadData()

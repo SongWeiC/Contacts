@@ -113,6 +113,9 @@ class AddContactDetailView: UIView {
             make.right.equalToSuperview().offset(-24)
         }
         firstNameTextField.textFieldDelegate = self
+        firstNameTextField.textField.bind() { text in
+            print("textField \(text)")
+        }
         
         self.addSubview(lastNameTextField)
         lastNameTextField.snp.makeConstraints{ make in
@@ -121,6 +124,9 @@ class AddContactDetailView: UIView {
             make.right.equalToSuperview().offset(-24)
         }
         lastNameTextField.textFieldDelegate = self
+        lastNameTextField.textField.bind() { text in
+            
+        }
         
         self.addSubview(emailTextField)
         emailTextField.snp.makeConstraints{ make in
@@ -128,7 +134,9 @@ class AddContactDetailView: UIView {
             make.left.equalToSuperview().offset(24)
             make.right.equalToSuperview().offset(-24)
         }
-
+        emailTextField.textField.bind() { text in
+            
+        }
     }
     
     func setUpAvatarImage() {

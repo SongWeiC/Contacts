@@ -50,6 +50,8 @@ class ContactViewTile: UIView {
    
         if let url = URL(string: config.avatarUrlString) {
             avatarImage.kf.setImage(with: url)
+        } else {
+            avatarImage.image = UIImage(named: "defaultAvatar")
         }
         
         nameLabel = UILabel()
