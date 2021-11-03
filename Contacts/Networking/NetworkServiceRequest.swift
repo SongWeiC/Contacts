@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Alamofire
 
 typealias GetResponse = (Result<ContactListAPIModel, Error>) -> Void
 typealias UpdateResponse = (Result<UpdateContactAPIModel, Error>) -> Void

@@ -40,6 +40,40 @@
 			<key>uniqueIdentifier</key>
 			<string>03400F41-92E9-428C-BCE5-B67A2D81F6FB</string>
 		</dict>
+		<key>A0CB4BF7-86DD-4BEA-AAED-6D8AE4A05060</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A0CB4BF7-86DD-4BEA-AAED-6D8AE4A05060.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Contacts project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Contacts</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Contacts</string>
+			<key>timeStartedRecording</key>
+			<real>657620892.87101996</real>
+			<key>timeStoppedRecording</key>
+			<real>657620940.73491895</real>
+			<key>title</key>
+			<string>Build Contacts</string>
+			<key>uniqueIdentifier</key>
+			<string>A0CB4BF7-86DD-4BEA-AAED-6D8AE4A05060</string>
+		</dict>
 	</dict>
 </dict>
 </plist>
