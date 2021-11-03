@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/Kingfisher.framework/Kingfisher</key>
 		<data>
-		wD6FlSnH6beTZjIAjEjK7Q13Vlg=
+		cPuvSQcM63jkeZZ3UTqrOL0x7jU=
 		</data>
 		<key>Frameworks/Kingfisher.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Frameworks/PromiseKit.framework/PromiseKit</key>
 		<data>
-		Ekgv6iAADzYj8sjMf4Q9WpfYaEY=
+		6RO3c0mXUqRFQPonvTk2Vboxl84=
 		</data>
 		<key>Frameworks/PromiseKit.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Frameworks/SnapKit.framework/SnapKit</key>
 		<data>
-		7YkkgDsKMdO4sp6HnfenlshtNcE=
+		IGfLAaiImrh+fGpVj2esqdv5dEQ=
 		</data>
 		<key>Frameworks/SnapKit.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		EegSxzRmqvQN4QV/S7Vecs4ZaXE=
+		8DQeROaSy1T6+2dVOxYiObXZJng=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -187,7 +187,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ghCsi+9nNqwzGG6PMiJze89S2BlP3ZNQoCOeRQZhBBo=
+			y9VAY8sy4283+/3At4VtM1RB7m0H48KyRAvB5cX4QA8=
 			</data>
 		</dict>
 		<key>Frameworks/Kingfisher.framework/_CodeSignature/CodeResources</key>
@@ -208,7 +208,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6C/73zwvX4slBVoAWoUH6Pz9cZ8jrDFFH7q/MT/TWXQ=
+			OJwTwaGsqvc627pOY4n+eUN94yo8xfqovmDVl4dDN6U=
 			</data>
 		</dict>
 		<key>Frameworks/PromiseKit.framework/_CodeSignature/CodeResources</key>
@@ -229,7 +229,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YTfpLTtl8ZBi+twmk1UaikC2Ez4iJs4m67PEvhYgjkA=
+			SajDK8b6vFK9ORt5+V0Yg7LXfX3ywHNrlg6ZdrK2mi0=
 			</data>
 		</dict>
 		<key>Frameworks/SnapKit.framework/_CodeSignature/CodeResources</key>
@@ -243,7 +243,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ka6W+CQ6PXa5sJIPlNuvvkD4vK0oXhlksx1NXeRXUzs=
+			wLZPOo/8x56mpIGfOclAREB8OwNVEETTOd9mdAt6X54=
 			</data>
 		</dict>
 	</dict>
